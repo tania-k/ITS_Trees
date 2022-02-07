@@ -1,0 +1,43 @@
+Clasp115|Cladosporium_sp._115	563 bp.	SSU: Not found	ITS1: 1-194	5.8S: 195-353	ITS2: 354-524	LSU: 525-563	
+ClasilCBS109082|Cladosporium_silenes_CBS:109082	476 bp.	SSU: Not found	ITS1: 1-162	5.8S: 163-320	ITS2: 321-476	LSU: Not found	
+ClaphaCBS128769|Cladosporium_phaenocomae_CBS	551 bp.	SSU: 1-43	ITS1: 44-196	5.8S: 197-354	ITS2: 355-502	LSU: 503-551	
+ClaacaCBS125982|Cladosporium_acalyphae_CBS	685 bp.	SSU: 1-175	ITS1: 176-330	5.8S: 331-488	ITS2: 489-636	LSU: 637-685	
+ClapiniCBS124456|Cladosporium_pini-ponderosae_CBS	550 bp.	SSU: 1-40	ITS1: 41-195	5.8S: 196-353	ITS2: 354-501	LSU: 502-550	
+ClacolCBS27480B|Cladosporium_colombiae_CBS	554 bp.	SSU: 1-43	ITS1: 44-199	5.8S: 200-357	ITS2: 358-505	LSU: 506-554	
+ClasphaCBS1935|Cladosporium_sphaerospermum_CBS	488 bp.	SSU: Not found	ITS1: 1-167	5.8S: 168-325	ITS2: 326-488	LSU: Not found	
+ClasubCBS113754|Cladosporium_subtilissimum_CBS:113754	475 bp.	SSU: Not found	ITS1: 1-161	5.8S: 162-319	ITS2: 320-475	LSU: Not found	
+ClaherCBS121626|Cladosporium_herbaroides_CBS:121626	499 bp.	SSU: Not found	ITS1: 1-167	5.8S: 168-325	ITS2: 326-473	LSU: 474-499	
+ClaxanCPC1160|Cladosporium_xantochromaticum_CPC:11609	497 bp.	SSU: Not found	ITS1: 1-165	5.8S: 166-323	ITS2: 324-471	LSU: 472-497	
+ClatenCBS125995|Cladosporium_tenuissimum_CBS	699 bp.	SSU: 1-189	ITS1: 190-344	5.8S: 345-502	ITS2: 503-650	LSU: 651-699	
+ClasubCBS12655|Cladosporium_subuliforme_CBS	554 bp.	SSU: 1-43	ITS1: 44-198	5.8S: 199-356	ITS2: 357-504	LSU: 505-554	
+ClaverrCBS126363|Cladosporium_verrucocladosporioides_CBS	563 bp.	SSU: 1-45	ITS1: 46-200	5.8S: 201-358	ITS2: 359-506	LSU: 507-563	
+ClavarCBS126362|Cladosporium_varians_CBS	503 bp.	SSU: 1-40	ITS1: 41-195	5.8S: 196-353	ITS2: 354-503	LSU: Not found	
+ClascaCBS126358|Cladosporium_scabrellum_CBS	516 bp.	SSU: 1-41	ITS1: 42-196	5.8S: 197-354	ITS2: 355-516	LSU: Not found	
+ClaphyCBS126355|Cladosporium_phyllactiniicola_CBS	549 bp.	SSU: 1-39	ITS1: 40-194	5.8S: 195-352	ITS2: 353-500	LSU: 501-549	
+ClamyrCBS126350|Cladosporium_myrtacearum_CBS	549 bp.	SSU: 1-39	ITS1: 40-194	5.8S: 195-352	ITS2: 353-500	LSU: 501-549	
+ClairaCBS126346|Cladosporium_iranicum_CBS	550 bp.	SSU: 1-40	ITS1: 41-195	5.8S: 196-353	ITS2: 354-501	LSU: 502-550	
+ClaflaCBS126345|Cladosporium_flabelliforme_CBS	546 bp.	SSU: 1-39	ITS1: 40-193	5.8S: 194-351	ITS2: 352-499	LSU: 500-546	
+ClaaspCBS126340|Cladosporium_asperulatum_CBS	549 bp.	SSU: 1-39	ITS1: 40-194	5.8S: 195-352	ITS2: 353-500	LSU: 501-549	
+ClaxylCBS125997|Cladosporium_xylophilum_CBS	688 bp.	SSU: 1-178	ITS1: 179-333	5.8S: 334-491	ITS2: 492-639	LSU: 640-688	
+ClaperCBS125996|Cladosporium_perangustum_CBS	685 bp.	SSU: 1-175	ITS1: 176-330	5.8S: 331-488	ITS2: 489-636	LSU: 637-685	
+ClarecCBS125994|Cladosporium_rectoides_CBS	685 bp.	SSU: 1-175	ITS1: 176-330	5.8S: 331-488	ITS2: 489-636	LSU: 637-685	
+ClapseCBS125993|Cladosporium_pseudocladosporioides_CBS	685 bp.	SSU: 1-175	ITS1: 176-330	5.8S: 331-488	ITS2: 489-636	LSU: 637-685	
+ConapoMG3|Coniosporium_apollinis_MG3	624 bp.	SSU: 1-69	ITS1: 70-238	5.8S: 239-396	ITS2: 397-561	LSU: 562-624	
+ConspMA4666|Coniosporium_sp._MA4666	722 bp.	SSU: 1-168	ITS1: 169-337	5.8S: 338-495	ITS2: 496-660	LSU: 661-722	
+UncDikPA2009E20|Uncultured_Dikarya_PA2009E20	2293 bp.	SSU: 1-1762	ITS1: 1763-1931	5.8S: 1932-2089	ITS2: 2090-2253	LSU: 2254-2293	
+UncConCHiv50|Uncultured_Coniosporium_CHiv50	619 bp.	SSU: 1-68	ITS1: 69-237	5.8S: 238-395	ITS2: 396-559	LSU: 560-619	
+BonspMCF2|Bonordeniella_sp._MCF2	590 bp.	SSU: 1-53	ITS1: 54-222	5.8S: 223-380	ITS2: 381-545	LSU: 546-590	
+ConapoCBS35297|Coniosporium_apollinis_CBS	599 bp.	SSU: 1-54	ITS1: 55-223	5.8S: 224-381	ITS2: 382-546	LSU: 547-599	
+UncfunCMH294|Uncultured_fungus_CMH294	792 bp.	SSU: 1-241	ITS1: 242-410	5.8S: 411-568	ITS2: 569-732	LSU: 733-792	
+UncfunC12001|Uncultured_fungus_C1_2001	577 bp.	SSU: 1-46	ITS1: 47-215	5.8S: 216-373	ITS2: 374-537	LSU: 538-577	
+FunspTRN471|Fungal_sp._TRN471	544 bp.	SSU: Not found	ITS1: 1-216	5.8S: 217-374	ITS2: 375-544	LSU: Not found	
+RaccboCBS125424|Rachicladosporium_cboliae_CBS	560 bp.	SSU: 1-33	ITS1: 34-208	5.8S: 209-366	ITS2: 367-519	LSU: 520-560	
+RaclucCBS12162|Rachicladosporium_luculiae_CBS	581 bp.	SSU: 1-44	ITS1: 45-222	5.8S: 223-380	ITS2: 381-532	LSU: 533-581	
+RacmcmCCFEE5211|Rachicladosporium_mcmurdoi_CCFEE	488 bp.	SSU: Not found	ITS1: 1-174	5.8S: 175-332	ITS2: 333-488	LSU: Not found	
+RacspCC2021a|Rachicladosporium_sp._CC-2021a	473 bp.	SSU: Not found	ITS1: 1-164	5.8S: 165-322	ITS2: 323-473	LSU: Not found	
+RacameCBS124774|Rachicladosporium_americanum_CBS:124774	657 bp.	SSU: 1-133	ITS1: 134-300	5.8S: 301-458	ITS2: 459-609	LSU: 610-657	
+RaceucCBS138900|Rachicladosporium_eucalypti_CBS:138900	590 bp.	SSU: 1-44	ITS1: 45-221	5.8S: 222-379	ITS2: 380-529	LSU: 530-590	
+OlemirCCFEE5523|Oleoguttula_mirabilis_CCFEE	436 bp.	SSU: Not found	ITS1: 1-126	5.8S: 127-284	ITS2: 285-436	LSU: Not found	
+OlespUFMGCB12624|Oleoguttula_sp._UFMGCB12624	421 bp.	SSU: Not found	ITS1: 1-167	5.8S: 168-325	ITS2: 326-421	LSU: Not found	
+OlemirEXF13080|Oleoguttula_mirabilis_EXF-13080	493 bp.	SSU: 1-52	ITS1: 53-198	5.8S: 199-356	ITS2: 357-493	LSU: Not found	
+OlemirCCFEE5522|Oleoguttula_mirabilis_CCFEE	463 bp.	SSU: Not found	ITS1: 1-153	5.8S: 154-311	ITS2: 312-463	LSU: Not found	

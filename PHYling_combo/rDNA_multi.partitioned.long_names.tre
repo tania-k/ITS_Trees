@@ -1,0 +1,120 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=26;
+	taxlabels
+	'Arthrocladium_caudatum.CBS.457.67'
+	'Arthrocladium_fulminans.CBS.136243'
+	'Arthrocladium_tardum.CBS.127021'
+	'Arthrocladium_tropicale.CBS.134926'
+	'Exophiala_dermatitidis_CBS.207.35'
+	'Knufia_calcarecola.CGMCC_3.17222'
+	'Knufia_cryptophialidica.DAOM.216555'
+	'Knufia_endospora.UAMH.10396'
+	'Knufia_epidermidis.CBS.120353'
+	'Knufia_karalitana.CBS.139720'
+	'Knufia_marmoricola.CBS.139726'
+	'Knufia_mediterranea.CBS.139721'
+	'Knufia_perforans.CBS.885.95'
+	'Knufia_petricola.CBS.726.95'
+	'Knufia_sp.JES112'
+	'Knufia_tsunedae.FMR.10621'
+	'Knufia_vaticanii.CBS.139722'
+	'Lithohypha_aloicola.CPC.35996'
+	'Lithohypha_catenulata.CGMCC_3.14008'
+	'Lithohypha_guttulata.M1'
+	'Neophaeococcomyces_catenatus_GenBank.KF777182'
+	uncultured_Exophiala_GenBank
+	'uncultured_fungus_GenBank.MN835758'
+	uncultured_fungus_UDB0768448
+	uncultured_fungus_UDB0768474
+	uncultured_fungus_UDB0768601
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('Exophiala_dermatitidis_CBS.207.35':0.207556,(('Lithohypha_aloicola.CPC.35996':0.00825,'Lithohypha_guttulata.M1':0.016279)[&label="100/100"]:0.124676,(((('Lithohypha_catenulata.CGMCC_3.14008':0.112751,'Knufia_mediterranea.CBS.139721':0.05304)[&label="86.8/76",!rotate=true]:0.018351,(('Knufia_cryptophialidica.DAOM.216555':0.014626,'Knufia_endospora.UAMH.10396':0.010082)[&label="99.7/100"]:0.03939,(('Knufia_tsunedae.FMR.10621':0.032454,'Knufia_petricola.CBS.726.95':0.00795)[&label="78.5/75"]:0.00706,(('Knufia_vaticanii.CBS.139722':0.073263,'Knufia_calcarecola.CGMCC_3.17222':0.026905)[&label="35.7/66"]:0.00561,(('Knufia_perforans.CBS.885.95':0.012267,'Knufia_marmoricola.CBS.139726':0.016315)[&label="74.1/66"]:0.002679,'Knufia_karalitana.CBS.139720':0.032049)[&label="90.1/32"]:0.004995)[&label="79.9/30"]:0.005515)[&label="94/83"]:0.019508)[&label="71.2/42"]:0.014332)[&label="60.8/32",!rotate=true]:0.00838,'Knufia_epidermidis.CBS.120353':0.050954)[&label="90.8/89"]:0.021637,('Arthrocladium_caudatum.CBS.457.67':0.022102,('Arthrocladium_fulminans.CBS.136243':0.025846,('Arthrocladium_tardum.CBS.127021':0.015104,'Arthrocladium_tropicale.CBS.134926':0.015188)[&label="63.6/88"]:0.010005)[&label="86.6/97"]:0.014489)[&label="99.1/100"]:0.052423)[&label="97.3/99"]:0.056758)[&label="88.4/94",!rotate=true]:0.042636,('Neophaeococcomyces_catenatus_GenBank.KF777182':0.089334,(uncultured_Exophiala_GenBank:0.010662,((('Knufia_sp.JES112':0.01201,(uncultured_fungus_UDB0768448:2.0E-6,uncultured_fungus_UDB0768601:0.003426)[&label="52.8/59"]:0.005128)[&label="74.6/65"]:0.001659,uncultured_fungus_UDB0768474:0.001727)[&label="0/52"]:2.0E-6,'uncultured_fungus_GenBank.MN835758':0.007201)[&label="93/65"]:0.014911)[&label="94.6/92",!rotate=true]:0.034403)[&label="96.9/98",!rotate=true]:0.055225);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=3.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=379;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute=null;
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=13;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

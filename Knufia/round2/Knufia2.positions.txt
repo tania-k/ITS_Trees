@@ -1,0 +1,6 @@
+UDB0768448	444 bp.	SSU: Not found	ITS1: 1-112	5.8S: 113-271	ITS2: 272-444	LSU: Not found	
+UDB0768474	531 bp.	SSU: Not found	ITS1: 1-199	5.8S: 200-358	ITS2: 359-531	LSU: Not found	
+UDB0768601	528 bp.	SSU: Not found	ITS1: 1-196	5.8S: 197-355	ITS2: 356-528	LSU: Not found	
+unculturedfungus_6	292 bp.	SSU: 1-46	ITS1: 47-242	5.8S: No end	ITS2: Not found	LSU: Not found	Broken or partial sequence, only partial 5.8S! 
+unculturedExophiala_2	528 bp.	SSU: Not found	ITS1: 1-196	5.8S: 197-355	ITS2: 356-528	LSU: Not found	
+Neophaeococcomyces_aloes	652 bp.	SSU: 1-42	ITS1: 43-250	5.8S: 251-409	ITS2: 410-605	LSU: 606-652	

@@ -1,0 +1,5 @@
+DNA, Chaet_2.ITS2.aln = 1-217
+DNA, Chaet_2.LSU.aln = 218-274
+DNA, Chaet_2.SSU.aln = 275-374
+DNA, Chaet_2.ITS1.aln = 375-633
+DNA, Chaet_2.5_8S.aln = 634-792

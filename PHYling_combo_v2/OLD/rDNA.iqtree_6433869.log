@@ -1,0 +1,14 @@
+IQ-TREE multicore version 2.1.1 COVID-edition for Linux 64-bit built Aug 22 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    m02 (AVX, 503 GB RAM)
+Command: iqtree2 -s Knuf.rDNA_multi.mfa -p Knufia_multi.partitions.nex -nt AUTO -pre Knuf.rDNA_multi.partitioned -bb 1000 -alrt 1000
+Seed:    625089 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Feb  5 10:53:15 2022
+Kernel:  AVX - auto-detect threads (4 CPU cores detected)
+
+Reading partition model file Knufia_multi.partitions.nex ...
+ERROR: 
+ERROR: Error found at line 8, column 36 (file position 247):
+ERROR: CharSet ITS1 not found

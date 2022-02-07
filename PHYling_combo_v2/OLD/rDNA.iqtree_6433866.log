@@ -1,0 +1,26 @@
+IQ-TREE multicore version 2.1.1 COVID-edition for Linux 64-bit built Aug 22 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    m02 (AVX, 503 GB RAM)
+Command: iqtree2 -s Knuf.rDNA_multi.mfa -p Knufia_multi.partitions.nex -nt AUTO -pre Knuf.rDNA_multi.partitioned -bb 1000 -alrt 1000
+Seed:    594348 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Feb  5 10:41:06 2022
+Kernel:  AVX - auto-detect threads (4 CPU cores detected)
+
+Reading partition model file Knufia_multi.partitions.nex ...
+ERROR: 
+ERROR: Error found at line 8, column 36 (file position 247):
+ERROR: CharSet ITS1 not found
+
+------------- EXCEPTION: Bio::Root::Exception -------------
+MSG: Could not read file 'Knuf.rDNA_multi.partitioned.treefile': No such file or directory
+STACK: Error::throw
+STACK: Bio::Root::Root::throw /bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/lib/site_perl/5.26.2/Bio/Root/Root.pm:447
+STACK: Bio::Root::IO::_initialize_io /bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/lib/site_perl/5.26.2/Bio/Root/IO.pm:268
+STACK: Bio::TreeIO::_initialize /bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/lib/site_perl/5.26.2/Bio/TreeIO.pm:232
+STACK: Bio::TreeIO::newick::_initialize /bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/lib/site_perl/5.26.2/Bio/TreeIO/newick.pm:95
+STACK: Bio::TreeIO::new /bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/lib/site_perl/5.26.2/Bio/TreeIO.pm:121
+STACK: Bio::TreeIO::new /bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/miniconda3/4.3.31/lib/site_perl/5.26.2/Bio/TreeIO.pm:132
+STACK: PHYling_unified/util/rename_tree_nodes.pl:10
+-----------------------------------------------------------

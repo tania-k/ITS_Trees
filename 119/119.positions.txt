@@ -1,0 +1,40 @@
+Dothsp119|Dothideales_sp._119	595 bp.	SSU: Not found	ITS1: 1-210	5.8S: 211-368	ITS2: 369-545	LSU: 546-595	
+ZalalbDAOMC250847|Zalaria_alba_DAOM	728 bp.	SSU: 1-118	ITS1: 119-297	5.8S: 298-455	ITS2: 456-628	LSU: 629-728	
+UncfunLX042399|Uncultured_fungus_LX042399-122-056-F01	659 bp.	SSU: 1-51	ITS1: 52-234	5.8S: 235-392	ITS2: 393-568	LSU: 569-659	
+UncfunHG764536|Uncultured_fungus_HG764536	615 bp.	SSU: 1-30	ITS1: 31-223	5.8S: 224-381	ITS2: 382-555	LSU: 556-615	
+AscspNWHC46419|Ascomycota_sp._NWHC46419-007_2SD	549 bp.	SSU: 1-32	ITS1: 33-225	5.8S: 226-383	ITS2: 384-549	LSU: Not found	
+StispMK136|Stigmina_sp._mk136	591 bp.	SSU: 1-50	ITS1: 51-227	5.8S: 228-385	ITS2: 386-550	LSU: 551-591	
+SarcruUAMH4286|Sarcinomyces_crustaceus_UAMH	651 bp.	SSU: 1-42	ITS1: 43-222	5.8S: 223-380	ITS2: 381-551	LSU: 552-651	
+UncfunL049481|Uncultured_fungus_L049481H09	632 bp.	SSU: 1-32	ITS1: 33-211	5.8S: 212-369	ITS2: 370-541	LSU: 542-632	
+UncfunLR993703|Uncultured_fungus_LR993703.1	1461 bp.	SSU: Not found	ITS1: 1-195	5.8S: 196-353	ITS2: 354-516	LSU: 517-1461	
+Funend9042|Fungal_endophyte_9042	581 bp.	SSU: 1-34	ITS1: 35-214	5.8S: 215-372	ITS2: 373-530	LSU: 531-581	
+AurspRF2017a|Aureobasidium_sp._RF-2017a	595 bp.	SSU: 1-41	ITS1: 42-220	5.8S: 221-378	ITS2: 379-547	LSU: 548-595	
+ZarlobsDAOMC250849|Zalaria_obscura_DAOM	724 bp.	SSU: 1-118	ITS1: 119-297	5.8S: 298-455	ITS2: 456-624	LSU: 625-724	
+SchspJY119|Schwanniomyces_sp._JY119	599 bp.	SSU: 1-32	ITS1: 33-211	5.8S: 212-369	ITS2: 370-538	LSU: 539-599	
+ElsoleCBS22759|Elsinoe_oleae_CBS	557 bp.	SSU: Not found	ITS1: 1-209	5.8S: 210-367	ITS2: 368-557	LSU: Not found	
+ElspitCBS22750|Elsinoe_pitangae_CBS	602 bp.	SSU: 1-41	ITS1: 42-246	5.8S: 247-404	ITS2: 405-602	LSU: Not found	
+ElsmanCBS22650|Elsinoe_mangiferae_CBS	559 bp.	SSU: Not found	ITS1: 1-214	5.8S: 215-372	ITS2: 373-559	LSU: Not found	
+Elscal22150|Elsinoe_caleae_CBS	556 bp.	SSU: Not found	ITS1: 1-210	5.8S: 211-368	ITS2: 369-556	LSU: Not found	
+ElszizCBS37862|Elsinoe_zizyphi_CBS	542 bp.	SSU: Not found	ITS1: 1-213	5.8S: 214-371	ITS2: 372-542	LSU: Not found	
+ElshevCBS17956|Elsinoe_heveae_CBS	586 bp.	SSU: Not found	ITS1: 1-212	5.8S: 213-370	ITS2: 371-586	LSU: Not found	
+ElslepCBS22550|Elsinoe_lepagei_CBS	650 bp.	SSU: 1-141	ITS1: 142-325	5.8S: 326-483	ITS2: 484-650	LSU: Not found	
+ElsjasCBS22450|Elsinoe_jasmini_CBS	554 bp.	SSU: Not found	ITS1: 1-206	5.8S: 207-364	ITS2: 365-554	LSU: Not found	
+ElsdioCBS22350|Elsinoe_diospyri_CBS	635 bp.	SSU: 1-83	ITS1: 84-287	5.8S: 288-445	ITS2: 446-635	LSU: Not found	
+ElscenCBS22250|Elsinoe_centrolobii_CBS	943 bp.	SSU: 1-396	ITS1: 397-596	5.8S: 597-754	ITS2: 755-943	LSU: Not found	
+ElsarruCBS22050|Elsinoe_arrudai_CBS	679 bp.	SSU: 1-141	ITS1: 142-347	5.8S: 348-505	ITS2: 506-679	LSU: Not found	
+ElsphaCBS16531|Elsinoe_phaseoli_CBS	661 bp.	SSU: 1-137	ITS1: 138-329	5.8S: 330-487	ITS2: 488-661	LSU: Not found	
+ElsfawCBS13925|Elsinoe_fawcettii_CBS	633 bp.	SSU: 1-45	ITS1: 46-244	5.8S: 245-402	ITS2: 403-585	LSU: 586-633	
+DelbalDJOB080615|Delphinella_balsameae_DJO-B-080615-A4	585 bp.	SSU: 1-40	ITS1: 41-220	5.8S: 221-378	ITS2: 379-539	LSU: 540-585	
+DelabiKX364384|Delphinella_abietis_KX364384	456 bp.	SSU: Not found	ITS1: 1-138	5.8S: 139-296	ITS2: 297-456	LSU: Not found	
+DelstroCBS73571|Delphinella_strobiligena_CBS	670 bp.	SSU: 1-129	ITS1: 130-309	5.8S: 310-467	ITS2: 468-628	LSU: 629-670	
+Delabi10669|Delphinella_abietis_10669	581 bp.	SSU: 1-32	ITS1: 33-212	5.8S: 213-370	ITS2: 371-531	LSU: 532-581	
+SydpolRBEB250515|Sydowia_polyspora_RBE-B-250515-A2	585 bp.	SSU: 1-40	ITS1: 41-220	5.8S: 221-378	ITS2: 379-539	LSU: 540-585	
+GroabiCbFap2016|Grovesiella_abieticola_CbFap2016ID_13	858 bp.	SSU: 1-357	ITS1: 358-564	5.8S: 565-722	ITS2: 723-858	LSU: Not found	
+AurpulEXF915|Aureobasidium_pullulans_EXF-915	486 bp.	SSU: Not found	ITS1: 1-186	5.8S: 187-344	ITS2: 345-486	LSU: Not found	
+AurpulCBS100280|Aureobasidium_pullulans_CBS	482 bp.	SSU: Not found	ITS1: 1-186	5.8S: 187-344	ITS2: 345-482	LSU: Not found	
+AurpulEXF150|Aureobasidium_pullulans_EXF-150	486 bp.	SSU: Not found	ITS1: 1-186	5.8S: 187-344	ITS2: 345-486	LSU: Not found	
+AurpulCBS70176|Aureobasidium_pullulans_CBS	485 bp.	SSU: Not found	ITS1: 1-185	5.8S: 186-343	ITS2: 344-485	LSU: Not found	
+MyrdurCBS26036|Myriangium_duriaei_CBS	558 bp.	SSU: 1-39	ITS1: 40-201	5.8S: 202-359	ITS2: 360-509	LSU: 510-558	
+MyrharCBS30034|Myriangium_haraeanum_CBS	563 bp.	SSU: 1-39	ITS1: 40-204	5.8S: 205-362	ITS2: 363-514	LSU: 515-563	
+MyrhisCBS24733|Myriangium_hispanicum_CBS	1968 bp.	SSU: 1-496	ITS1: 497-658	5.8S: 659-816	ITS2: 817-1968	LSU: Not found	ITS region too long! 
+MyrspEF109|Myriangium_sp._EF109	540 bp.	SSU: Not found	ITS1: 1-185	5.8S: 186-343	ITS2: 344-494	LSU: 495-540	

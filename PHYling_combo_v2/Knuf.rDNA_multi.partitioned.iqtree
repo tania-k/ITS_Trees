@@ -1,0 +1,385 @@
+IQ-TREE 2.1.1 COVID-edition built Aug 22 2020
+
+Partition file name: Knufia_multi.partitions.nex
+Input file name: Knuf.rDNA_multi.mfa
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 144026
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+Since you used partition models please also cite:
+
+Olga Chernomor, Arndt von Haeseler, and Bui Quang Minh (2016)
+Terrace aware data structure for phylogenomic inference from
+supermatrices. Syst. Biol., 65:997-1008.
+https://doi.org/10.1093/sysbio/syw037
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 68 taxa with 5 partitions and 1414 total sites (1.17587% missing data)
+
+  ID  Name  Type	Seq	Site	Unique	Infor	Invar	Const
+   1  ITS1  DNA	67	250	175	106	100	100
+   2  ITS2  DNA	65	229	157	102	88	88
+   3  5_8S  DNA	65	160	94	59	78	78
+   4  LSU   DNA	67	607	361	223	291	291
+   5  SSU   DNA	65	168	101	65	79	79
+
+Column meanings:
+  Unique: Number of unique site patterns
+  Infor:  Number of parsimony-informative sites
+  Invar:  Number of invariant sites
+  Const:  Number of constant sites (can be subset of invariant sites)
+
+SUBSTITUTION PROCESS
+--------------------
+
+Edge-linked-proportional partition model with separate substitution models and separate rates across sites
+
+  ID  Model           Speed  Parameters
+   1  TIM2e+G4       1.4030  TIM2e{1.54901,2.59479,4.77569}+FQ+G4{0.571868}
+   2  TPM2+F+G4      1.4347  TPM2{2.23674,4.3613}+F{0.187635,0.299268,0.262295,0.250802}+G4{0.584467}
+   3  JC+I           0.7867  JC+I{0.384516}
+   4  JC             0.7942  JC
+   5  JC             0.7543  JC
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -13290.6101 (s.e. 357.7447)
+Unconstrained log-likelihood (without tree): -6735.3252
+Number of free parameters (#branches + #model parameters): 146
+Akaike information criterion (AIC) score: 26873.2201
+Corrected Akaike information criterion (AICc) score: 26907.0986
+Bayesian information criterion (BIC) score: 27640.3301
+
+Total tree length (sum of branch lengths): 2.4837
+Sum of internal branch lengths: 1.3648 (54.9478% of tree length)
+
+WARNING: 12 near-zero internal branches (<0.0007) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'ExoderCBS20735' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++------------------------------------------------------ExoderCBS20735
+|
+|                                            +--LitaloCPC35996
+|              +-----------------------------| (100/100)
+|              |                             |  +--LitgutM1
+|              |                             +--| (71.4/88)
+|              |                                +--LitspCCFEE6069
+|        +-----| (98.9/98)
+|        |     +----------KnuspFH2012
++--------| (100/100)
+|        |                                                          +---ArtcauCBS45767
+|        |                                                       +--| (86.6/76)
+|        |                                                       |  +---ArttarCBS127021
+|        |                                                    +--| (56.2/74)
+|        |                                                    |  +---ArtfulCBS136243
+|        |                                  +-----------------| (100/100)
+|        |                                  |                 +--ArttroCBS134926
+|        |                              +---| (99.8/78)
+|        |                              |   +--KnuvalCBS146989
+|        |                           +**| (0/26)
+|        |                           |  +--KnuperCBS88595
+|        |                        +--| (36.4/39)
+|        |                        |  |                    +**KnuepiCBS120353
+|        |                        |  |                 +--| (97.9/100)
+|        |                        |  |                 |  +--ConspCBS123466
+|        |                        |  +-----------------| (100/100)
+|        |                        |                    |  +--KnuepiCCFEE5813
+|        |                        |                    +**| (0/83)
+|        |                        |                       +**KnuepiCCFEE5814
+|        |                     +--| (92/43)
+|        |                     |  |                        +--KnucryDAOM216555
+|        |                     |  |             +----------| (100/100)
+|        |                     |  |             |          +--KnuendUAMH10396
+|        |                     |  |        +----| (100/100)
+|        |                     |  |        |    +---KnuperIRAN2553C
+|        |                     |  |     +--| (98.2/100)
+|        |                     |  |     |  |              +**KnumedCCFEE6205
+|        |                     |  |     |  |           +--| (74.9/99)
+|        |                     |  |     |  |           |  +**KnumedCCFEE6211
+|        |                     |  |     |  |        +--| (81/94)
+|        |                     |  |     |  |        |  +**KnumedCBS139721
+|        |                     |  |     |  +--------| (100/100)
+|        |                     |  |     |           +--KnumedCCFEE5768
+|        |                     |  |  +--| (99.5/96)
+|        |                     |  |  |  +----KnusepCGMCC317337
+|        |                     |  +--| (89.9/15)
+|        |                     |     |  +-----KnuvatCBS139722
+|        |                     |     +--| (99.9/99)
+|        |                     |        +--KnuspMV2018
+|        |                  +--| (96.9/48)
+|        |                  |  |  +--KnucalCGMCC317222
+|        |                  |  +--| (99.9/100)
+|        |                  |     |  +**KnuspLS-2015bCGMCC317301
+|        |                  |     +--| (98.7/100)
+|        |                  |        +**KnucheGS100178
+|        |               +--| (94.6/92)
+|        |               |  |           +------KnumarCCFEE5726
+|        |               |  |        +**| (0/62)
+|        |               |  |        |  |        +--KnumarCCFEE5721
+|        |               |  |        |  |     +**| (0/34)
+|        |               |  |        |  |     |  |        +--KnumarCCFEE5923
+|        |               |  |        |  |     |  |     +**| (0/42)
+|        |               |  |        |  |     |  |     |  +**KnumarCCFEE5886
+|        |               |  |        |  |     |  |  +**| (0/51)
+|        |               |  |        |  |     |  |  |  +**KnumarCCFEE6201
+|        |               |  |        |  |     |  +**| (0/32)
+|        |               |  |        |  |     |     +**KnumarCBS139726
+|        |               |  |        |  |  +**| (0/52)
+|        |               |  |        |  |  |  |  +**KnumarCCFEE5725
+|        |               |  |        |  |  |  +--| (94.8/97)
+|        |               |  |        |  |  |     +**KnumarCCFEE5716
+|        |               |  |        |  +--| (84.7/94)
+|        |               |  |        |     +--KnumarCCFEE5902
+|        |               |  |     +--| (97.3/72)
+|        |               |  |     |  +--KnuspNWHC45700969
+|        |               |  |  +--| (97.8/58)
+|        |               |  |  |  +--KnuspCF285360
+|        |               |  +--| (93.1/52)
+|        |               |     |  +--KnukarCCFEE6001
+|        |               |     +--| (99.9/100)
+|        |               |        |     +--KnukarCCFEE5732
+|        |               |        |  +**| (0/53)
+|        |               |        |  |  +**KnukarCBS139720
+|        |               |        +--| (95.6/89)
+|        |               |           |  +**KnukarCCFEE5921
+|        |               |           +--| (93.6/80)
+|        |               |              +**KnukarCCFEE5929
+|        |            +--| (95/95)
+|        |            |  |        +**KnupetCBS72695
+|        |            |  |     +**| (0/61)
+|        |            |  |     |  +**KnupetA95
+|        |            |  |  +**| (0/57)
+|        |            |  |  |  +--PhacheCH49
+|        |            |  +--| (100/100)
+|        |            |     +--SarpetNIOCCY8
+|        |         +--| (97.7/100)
+|        |         |  |  +--KnuspF1A
+|        |         |  +--| (100/100)
+|        |         |     +--KnutsuFMR10621
+|        |  +------| (99.7/100)
+|        |  |      |  +--KnuspSD2017
+|        |  |      +--| (99.1/100)
+|        |  |         +--CappelUAMH11090
+|        +--| (80.1/91)
+|           +-------KnuspCBMAI2122
+|
+|                 +--Neoalo
+|              +--| (99.3/100)
+|              |  +--KnuspDTO305D4
+|      +-------| (100/100)
+|      |       +--NeocatUAMH4357
++------| (99.6/100)
+       |          +--uncExo
+       |     +----| (100/100)
+       |     |    +**unculturedExophiala_2
+       +-----| (99.7/100)
+             |        +--Knusp112
+             |     +--| (40.4/74)
+             |     |  |  +**uncfun1
+             |     |  +--| (85/96)
+             |     |     +**UDB0768601
+             +-----| (100/100)
+                   |        +**uncfun4
+                   |     +--| (80.3/98)
+                   |     |  +**UDB0768474
+                   |  +**| (0/87)
+                   |  |  |  +**uncfun5
+                   |  |  +--| (99.1/100)
+                   |  |     +**UDB0768448
+                   +--| (96/78)
+                      |  +**uncfun2
+                      +--| (88/76)
+                         +--unculturedfungus_6
+
+Tree in newick format:
+
+(ExoderCBS20735:0.3547572586,(((LitaloCPC35996:0.0053475300,(LitgutM1:0.0175603162,LitspCCFEE6069:0.0115682118)71.4/88:0.0010490830)100/100:0.1933319941,KnuspFH2012:0.0763355071)98.9/98:0.0429343538,(((((((((((((ArtcauCBS45767:0.0273151487,ArttarCBS127021:0.0292257280)86.6/76:0.0178115439,ArtfulCBS136243:0.0284193275)56.2/74:0.0116151661,ArttroCBS134926:0.0214978088)100/100:0.1161744142,KnuvalCBS146989:0.0177879273)99.8/78:0.0316276985,KnuperCBS88595:0.0226982405)0/26:0.0000024635,((KnuepiCBS120353:0.0000010006,ConspCBS123466:0.0170922783)97.9/100:0.0053946749,(KnuepiCCFEE5813:0.0049629132,KnuepiCCFEE5814:0.0000010006)0/83:0.0000026359)100/100:0.1187064525)36.4/39:0.0104884817,(((((KnucryDAOM216555:0.0051092342,KnuendUAMH10396:0.0218574189)100/100:0.0729182198,KnuperIRAN2553C:0.0291857360)100/100:0.0327054268,(((KnumedCCFEE6205:0.0000010006,KnumedCCFEE6211:0.0000010006)74.9/99:0.0008722210,KnumedCBS139721:0.0000020256)81/94:0.0043805305,KnumedCCFEE5768:0.0036590391)100/100:0.0605289342)98.2/100:0.0175634524,KnusepCGMCC317337:0.0350283080)99.5/96:0.0213839282,(KnuvatCBS139722:0.0423955008,KnuspMV2018:0.0155988705)99.9/99:0.0231423647)89.9/15:0.0060724547)92/43:0.0053883333,(KnucalCGMCC317222:0.0058646619,(KnuspLS-2015bCGMCC317301:0.0000010006,KnucheGS100178:0.0000010006)98.7/100:0.0088997608)99.9/100:0.0166251393)96.9/48:0.0105930405,((((KnumarCCFEE5726:0.0511980318,(((KnumarCCFEE5721:0.0091246439,(((KnumarCCFEE5923:0.0032998709,KnumarCCFEE5886:0.0000010006)0/42:0.0000021852,KnumarCCFEE6201:0.0000010006)0/51:0.0000024949,KnumarCBS139726:0.0000010006)0/32:0.0000065833)0/34:0.0000024146,(KnumarCCFEE5725:0.0000010006,KnumarCCFEE5716:0.0000010006)94.8/97:0.0029200195)0/52:0.0000010006,KnumarCCFEE5902:0.0179162069)84.7/94:0.0026432146)0/62:0.0000010006,KnuspNWHC45700969:0.0079696400)97.3/72:0.0106853814,KnuspCF285360:0.0180035988)97.8/58:0.0125457403,(KnukarCCFEE6001:0.0048352810,((KnukarCCFEE5732:0.0036447749,KnukarCBS139720:0.0000010006)0/53:0.0000026039,(KnukarCCFEE5921:0.0000025470,KnukarCCFEE5929:0.0000020023)93.6/80:0.0092850390)95.6/89:0.0111610749)99.9/100:0.0223105259)93.1/52:0.0062893154)94.6/92:0.0063110335,(((KnupetCBS72695:0.0000010006,KnupetA95:0.0000010006)0/61:0.0000010006,PhacheCH49:0.0009779932)0/57:0.0000010006,SarpetNIOCCY8:0.0090051557)100/100:0.0237116409)95/95:0.0081370929,(KnuspF1A:0.0041147249,KnutsuFMR10621:0.0052519858)100/100:0.0226212927)97.7/100:0.0181695529,(KnuspSD2017:0.0130664013,CappelUAMH11090:0.0105469335)99.1/100:0.0188389126)99.7/100:0.0473027452,KnuspCBMAI2122:0.0564709794)80.1/91:0.0137866586)100/100:0.0593276207,(((Neoalo:0.0226331096,KnuspDTO305D4:0.0113162729)99.3/100:0.0211229061,NeocatUAMH4357:0.0184687132)100/100:0.0516586766,((uncExo:0.0098829304,unculturedExophiala_2:0.0000027362)100/100:0.0368884419,((Knusp112:0.0041329909,(uncfun1:0.0000010006,UDB0768601:0.0000010006)85/96:0.0018941569)40.4/74:0.0021731150,(((uncfun4:0.0000027804,UDB0768474:0.0000027545)80.3/98:0.0009853487,(uncfun5:0.0000025681,UDB0768448:0.0000023992)99.1/100:0.0063131943)0/87:0.0000020992,(uncfun2:0.0000010006,unculturedfungus_6:0.0126420182)88/76:0.0125603892)96/78:0.0047192232)100/100:0.0406848456)99.7/100:0.0409114186)99.6/100:0.0497365626);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -13290.653340
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++------------------------------------------------------ExoderCBS20735
+|
+|                                            +--LitaloCPC35996
+|              +-----------------------------| (100)
+|              |                             |  +--LitgutM1
+|              |                             +--| (88)
+|              |                                +--LitspCCFEE6069
+|        +-----| (98)
+|        |     +----------KnuspFH2012
++--------| (100)
+|        |                                                          +---ArtcauCBS45767
+|        |                                                       +--| (76)
+|        |                                                       |  +---ArttarCBS127021
+|        |                                                    +--| (74)
+|        |                                                    |  +---ArtfulCBS136243
+|        |                                  +-----------------| (100)
+|        |                                  |                 +--ArttroCBS134926
+|        |                              +---| (78)
+|        |                              |   +--KnuvalCBS146989
+|        |                           +--| (31)
+|        |                           |  |                    +--KnuepiCBS120353
+|        |                           |  |                 +--| (100)
+|        |                           |  |                 |  +--ConspCBS123466
+|        |                           |  +-----------------| (100)
+|        |                           |                    |  +--KnuepiCCFEE5813
+|        |                           |                    +--| (83)
+|        |                           |                       +--KnuepiCCFEE5814
+|        |                        +--| (39)
+|        |                        |  +--KnuperCBS88595
+|        |                     +--| (43)
+|        |                     |  |                        +--KnucryDAOM216555
+|        |                     |  |             +----------| (100)
+|        |                     |  |             |          +--KnuendUAMH10396
+|        |                     |  |        +----| (100)
+|        |                     |  |        |    +---KnuperIRAN2553C
+|        |                     |  |     +--| (100)
+|        |                     |  |     |  |              +--KnumedCCFEE6205
+|        |                     |  |     |  |           +--| (99)
+|        |                     |  |     |  |           |  +--KnumedCCFEE6211
+|        |                     |  |     |  |        +--| (94)
+|        |                     |  |     |  |        |  +**KnumedCBS139721
+|        |                     |  |     |  +--------| (100)
+|        |                     |  |     |           +--KnumedCCFEE5768
+|        |                     |  |  +--| (96)
+|        |                     |  |  |  +----KnusepCGMCC317337
+|        |                     |  +--| (15)
+|        |                     |     |  +-----KnuvatCBS139722
+|        |                     |     +--| (99)
+|        |                     |        +--KnuspMV2018
+|        |                  +--| (48)
+|        |                  |  |  +--KnucalCGMCC317222
+|        |                  |  +--| (100)
+|        |                  |     |  +--KnuspLS-2015bCGMCC317301
+|        |                  |     +--| (100)
+|        |                  |        +--KnucheGS100178
+|        |               +--| (92)
+|        |               |  |           +------KnumarCCFEE5726
+|        |               |  |        +--| (62)
+|        |               |  |        |  |        +--KnumarCCFEE5721
+|        |               |  |        |  |     +--| (34)
+|        |               |  |        |  |     |  |        +**KnumarCCFEE5923
+|        |               |  |        |  |     |  |     +--| (42)
+|        |               |  |        |  |     |  |     |  +--KnumarCCFEE5886
+|        |               |  |        |  |     |  |  +--| (51)
+|        |               |  |        |  |     |  |  |  |  +**KnumarCCFEE6201
+|        |               |  |        |  |     |  |  |  +--|
+|        |               |  |        |  |     |  |  |     +**KnumarCCFEE5892
+|        |               |  |        |  |     |  +--| (32)
+|        |               |  |        |  |     |     +--KnumarCBS139726
+|        |               |  |        |  |  +--| (52)
+|        |               |  |        |  |  |  |  +--KnumarCCFEE5725
+|        |               |  |        |  |  |  +--| (97)
+|        |               |  |        |  |  |     +--KnumarCCFEE5716
+|        |               |  |        |  +--| (94)
+|        |               |  |        |     +--KnumarCCFEE5902
+|        |               |  |     +--| (72)
+|        |               |  |     |  +--KnuspNWHC45700969
+|        |               |  |  +--| (58)
+|        |               |  |  |  +--KnuspCF285360
+|        |               |  +--| (52)
+|        |               |     |  +--KnukarCCFEE6001
+|        |               |     +--| (100)
+|        |               |        |     +--KnukarCCFEE5732
+|        |               |        |  +--| (53)
+|        |               |        |  |  +--KnukarCBS139720
+|        |               |        +--| (89)
+|        |               |           |  +--KnukarCCFEE5921
+|        |               |           +--| (80)
+|        |               |              +--KnukarCCFEE5929
+|        |            +--| (95)
+|        |            |  |        +--KnupetCBS72695
+|        |            |  |     +--| (61)
+|        |            |  |     |  +--KnupetA95
+|        |            |  |  +--| (57)
+|        |            |  |  |  +--PhacheCH49
+|        |            |  +--| (100)
+|        |            |     +--SarpetNIOCCY8
+|        |         +--| (100)
+|        |         |  |  +--KnuspF1A
+|        |         |  +--| (100)
+|        |         |     +--KnutsuFMR10621
+|        |  +------| (100)
+|        |  |      |  +--KnuspSD2017
+|        |  |      +--| (100)
+|        |  |         +--CappelUAMH11090
+|        +--| (91)
+|           +-------KnuspCBMAI2122
+|
+|                 +--Neoalo
+|              +--| (100)
+|              |  +--KnuspDTO305D4
+|      +-------| (100)
+|      |       +--NeocatUAMH4357
++------| (100)
+       |          +--uncExo
+       |     +----| (100)
+       |     |    +--unculturedExophiala_2
+       +-----| (100)
+             |        +--Knusp112
+             |     +--| (74)
+             |     |  |  +--uncfun1
+             |     |  +--| (96)
+             |     |     +--UDB0768601
+             +-----| (100)
+                   |        +--uncfun4
+                   |     +--| (98)
+                   |     |  +--UDB0768474
+                   |  +--| (87)
+                   |  |  |  +--uncfun5
+                   |  |  +--| (100)
+                   |  |     +--UDB0768448
+                   +--| (78)
+                      |  +--uncfun2
+                      +--| (76)
+                         +--unculturedfungus_6
+
+
+Consensus tree in newick format: 
+
+(ExoderCBS20735:0.3547575964,(((LitaloCPC35996:0.0053475831,(LitgutM1:0.0175594505,LitspCCFEE6069:0.0115683824)88:0.0010490154)100:0.1933318261,KnuspFH2012:0.0763345971)98:0.0429344139,(((((((((((((ArtcauCBS45767:0.0273144125,ArttarCBS127021:0.0292251629)76:0.0178112138,ArtfulCBS136243:0.0284199454)74:0.0116151486,ArttroCBS134926:0.0214978734)100:0.1161741725,KnuvalCBS146989:0.0177885477)78:0.0316259511,((KnuepiCBS120353:0.0000020405,ConspCBS123466:0.0170918624)100:0.0053945225,(KnuepiCCFEE5813:0.0049632606,KnuepiCCFEE5814:0.0000027346)83:0.0000020405)100:0.1187068032)31:0.0000022194,KnuperCBS88595:0.0226975314)39:0.0104893686,(((((KnucryDAOM216555:0.0051102109,KnuendUAMH10396:0.0218570923)100:0.0729183397,KnuperIRAN2553C:0.0291867534)100:0.0327051628,(((KnumedCCFEE6205:0.0000027346,KnumedCCFEE6211:0.0000027346)99:0.0008709702,KnumedCBS139721:0.0000011377)94:0.0043812889,KnumedCCFEE5768:0.0036597691)100:0.0605286255)100:0.0175640179,KnusepCGMCC317337:0.0350282923)96:0.0213847569,(KnuvatCBS139722:0.0423951876,KnuspMV2018:0.0155982584)99:0.0231422016)15:0.0060724900)43:0.0053885001,(KnucalCGMCC317222:0.0058647298,(KnuspLS-2015bCGMCC317301:0.0000027346,KnucheGS100178:0.0000027346)100:0.0089005181)100:0.0166244638)48:0.0105934356,((((KnumarCCFEE5726:0.0511973973,(((KnumarCCFEE5721:0.0091248560,(((KnumarCCFEE5923:0.0000012874,KnumarCCFEE5886:0.0000027346)42:0.0000023939,(KnumarCCFEE6201:0.0000000000,KnumarCCFEE5892:0.0000000000):0.0000027346)51:0.0000020736,KnumarCBS139726:0.0000027346)32:0.0033144735)34:0.0000029264,(KnumarCCFEE5725:0.0000023939,KnumarCCFEE5716:0.0000027346)97:0.0029190187)52:0.0000022325,KnumarCCFEE5902:0.0179150418)94:0.0026434129)62:0.0000027802,KnuspNWHC45700969:0.0079700172)72:0.0106848125,KnuspCF285360:0.0180036568)58:0.0125461997,(KnukarCCFEE6001:0.0048353101,((KnukarCCFEE5732:0.0025189791,KnukarCBS139720:0.0000027346)53:0.0011246094,(KnukarCCFEE5921:0.0000029122,KnukarCCFEE5929:0.0000027346)80:0.0092863214)89:0.0111604390)100:0.0223100452)52:0.0062893980)92:0.0063119827,(((KnupetCBS72695:0.0000027346,KnupetA95:0.0000027346)61:0.0000027346,PhacheCH49:0.0009768811)57:0.0000027346,SarpetNIOCCY8:0.0090052664)100:0.0237116829)95:0.0081375057,(KnuspF1A:0.0041152451,KnutsuFMR10621:0.0052521490)100:0.0226217661)100:0.0181684936,(KnuspSD2017:0.0130671784,CappelUAMH11090:0.0105472446)100:0.0188394431)100:0.0473051687,KnuspCBMAI2122:0.0564709690)91:0.0137880241)100:0.0593301669,(((Neoalo:0.0226331649,KnuspDTO305D4:0.0113164691)100:0.0211252284,NeocatUAMH4357:0.0184676155)100:0.0516487559,((uncExo:0.0098834811,unculturedExophiala_2:0.0000027435)100:0.0368967880,((Knusp112:0.0041221335,(uncfun1:0.0000027346,UDB0768601:0.0000027346)96:0.0019034978)74:0.0021813107,(((uncfun4:0.0000027346,UDB0768474:0.0000027346)98:0.0009838289,(uncfun5:0.0000027346,UDB0768448:0.0000027346)100:0.0063148577)87:0.0006060576,(uncfun2:0.0000021439,unculturedfungus_6:0.0126412389)76:0.0125508216)78:0.0040459604)100:0.0406850453)100:0.0409129981)100:0.0497440441);
+
+TIME STAMP
+----------
+
+Date and time: Sat Feb  5 22:49:39 2022
+Total CPU time used: 370.048716 seconds (0h:6m:10s)
+Total wall-clock time used: 187.6521409 seconds (0h:3m:7s)
+

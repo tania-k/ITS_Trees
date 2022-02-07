@@ -1,0 +1,48 @@
+IQ-TREE multicore version 2.1.1 COVID-edition for Linux 64-bit built Aug 22 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    i04 (AVX2, FMA3, 503 GB RAM)
+Command: iqtree2 -s rDNA_multi.mfa -p rDNA_multi.partitions.nex -nt AUTO -pre rDNA_multi.partitioned -bb 1000 -alrt 1000
+Seed:    259482 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Mar 22 12:54:06 2021
+Kernel:  AVX+FMA - auto-detect threads (4 CPU cores detected)
+
+Reading partition model file rDNA_multi.partitions.nex ...
+Reading alignment file rDNA_multi.mfa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 26 sequences with 985 columns, 425 distinct patterns
+183 parsimony-informative, 112 singleton sites, 690 constant sites
+                 Gap/Ambiguity  Composition  p-value
+   1  LaloCPC35996      39.39%    passed     36.64%
+   2  LgutM1            39.19%    passed     33.98%
+   3  LcatCGMCC31408    42.94%    passed     70.69%
+   4  KvatCBS139722     37.56%    passed     79.02%
+   5  AfulCBS136243     43.15%    passed     76.83%
+   6  AcauCBS45767      42.13%    passed     57.43%
+   7  AtarCBS127021     43.15%    passed     70.32%
+   8  AtroCBS134926     37.06%    passed     90.37%
+   9  KepiCBS120353     45.08%    passed     55.28%
+  10  KmedCBS129721     38.98%    passed     83.04%
+  11  KtsuFMR10621      45.79%    passed     98.06%
+  12  KmarCBS139726     44.87%    passed     99.49%
+  13  KcryDAOM21655     33.40%    passed     83.37%
+  14  KendUAMH10396     44.26%    passed     56.60%
+  15  KcalCGMCC317222   44.26%    passed     98.29%
+  16  KkarCBS139720     33.40%    passed     93.07%
+  17  KpetCBS726.95     38.27%    passed     99.49%
+  18  KperCBS88595      33.60%    passed     97.62%
+  19  EderCBS201735     31.37%    passed     75.74%
+  20  KF777182          33.91%    passed     81.59%
+  21  MN835758          75.43%    passed     80.26%
+  22  JES112            46.19%    passed     92.18%
+  23  UDB0768601        25.69%    passed     92.74%
+  24  MG707512          33.60%    passed     87.43%
+  25  UDB0768474        37.66%    passed     93.19%
+  26  UDB0768448        51.07%    passed     87.86%
+WARNING: 2 sequences contain more than 50% gaps/ambiguity
+****  TOTAL             40.82%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: No CharPartition defined, use all CharSets
+
+Loading 5 partitions...
+ERROR: Unknown sequence type ITS1

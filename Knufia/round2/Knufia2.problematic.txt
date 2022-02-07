@@ -1,0 +1,5 @@
+UDB0768448	End of SSU sequence not found; Start of LSU sequence not found
+UDB0768474	End of SSU sequence not found; Start of LSU sequence not found
+UDB0768601	End of SSU sequence not found; Start of LSU sequence not found
+unculturedfungus_6	Start of LSU sequence not found; End of 5.8S sequence not found
+unculturedExophiala_2	End of SSU sequence not found; Start of LSU sequence not found

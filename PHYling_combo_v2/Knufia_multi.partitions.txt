@@ -1,0 +1,5 @@
+DNA, Knuf.ITS2.aln = 1-226
+DNA, Knuf.ITS1.aln = 227-472
+DNA, Knuf.5_8S.aln = 473-631
+DNA, Knuf.SSU.aln = 632-797
+DNA, Knuf.LSU.aln = 798-1395

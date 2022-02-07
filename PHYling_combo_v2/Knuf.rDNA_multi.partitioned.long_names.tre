@@ -1,0 +1,162 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=68;
+	taxlabels
+	'Arthrocladium_caudatum_CBS_457.67'
+	Arthrocladium_fulminans_CBS_136243
+	Arthrocladium_tardum_CBS_127021
+	Arthrocladium_tropicale_CBS_134926
+	Capronia_peltigerae_UAMH_11090
+	'Coniosporium_sp._CBS_123466'
+	'Exophiala_dermatitidis_CBS_207.35'
+	'Knufia_calcarecola_CGMCC_3.17222'
+	Knufia_chersonesos_GS10017-8
+	Knufia_cryptophialidica_DAOM_216555
+	Knufia_endospora_UAMH_10396
+	Knufia_epidermidis_CBS_120353
+	Knufia_epidermidis_CCFEE_5813
+	Knufia_epidermidis_CCFEE_5814
+	Knufia_karalitana_CBS_139720
+	Knufia_karalitana_CCFEE_5732
+	Knufia_karalitana_CCFEE_5921
+	Knufia_karalitana_CCFEE_5929
+	Knufia_karalitana_CCFEE_6001
+	Knufia_marmoricola_CBS_139726
+	Knufia_marmoricola_CCFEE_5716
+	Knufia_marmoricola_CCFEE_5721
+	Knufia_marmoricola_CCFEE_5725
+	Knufia_marmoricola_CCFEE_5726
+	Knufia_marmoricola_CCFEE_5886
+	Knufia_marmoricola_CCFEE_5892
+	Knufia_marmoricola_CCFEE_5902
+	Knufia_marmoricola_CCFEE_5923
+	Knufia_marmoricola_CCFEE_6201
+	Knufia_mediterranea_CBS_139721
+	Knufia_mediterranea_CCFEE5768
+	Knufia_mediterranea_CCFEE_6205
+	Knufia_mediterranea_CCFEE_6211
+	Knufia_perfecta_IRAN2553C
+	'Knufia_perforans_CBS_885.95'
+	Knufia_petricola_A95
+	'Knufia_petricola_CBS_726.95'
+	'Knufia_separata_CGMCC3.17337'
+	'Knufia_sp._112'[&!color=#0000ff]
+	'Knufia_sp._CBMAI2122'
+	'Knufia_sp._CF285360'
+	'Knufia_sp._DTO305-D4'
+	'Knufia_sp._F1A'
+	'Knufia_sp._FH-2012'
+	'Knufia_sp._LS-2015bCGMCC3.17301'
+	'Knufia_sp._MV-2018'
+	'Knufia_sp._NWHC45700-969'
+	'Knufia_sp._SD-2017'
+	Knufia_tsunedae_FMR_10621
+	Knufia_vaticanii_CBS_139722
+	Knufia_walvisbayicola_CBS_146989
+	Lithohypha_aloicola_CPC_35996
+	Lithohypha_guttulata_M1
+	'Lithohypha_sp._CCFEE_6069'
+	Neophaeococcomyces_aloes
+	Neophaeococcomyces_catenatus_UAMH_4357
+	Phaeococcomyces_chersonesos_CH49
+	Sarcinomyces_petricola_NIOCCY8
+	uncultured_Exophiala
+	uncultured_Exophiala2
+	uncultured_fungus1
+	uncultured_fungus2
+	uncultured_fungus3
+	uncultured_fungus4
+	uncultured_fungus6
+	uncultured_fungus7
+	uncultured_fungus8
+	uncultured_fungus9
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('Exophiala_dermatitidis_CBS_207.35':0.354757,(((Lithohypha_aloicola_CPC_35996:0.005348,(Lithohypha_guttulata_M1:0.01756,'Lithohypha_sp._CCFEE_6069':0.011568)[&label="71.4/88"]:0.001049)[&label="100/100"]:0.193332,'Knufia_sp._FH-2012':0.076336)[&label="98.9/98",!rotate=true]:0.042934,((((((((((((('Arthrocladium_caudatum_CBS_457.67':0.027315,Arthrocladium_tardum_CBS_127021:0.029226)[&label="86.6/76"]:0.017812,Arthrocladium_fulminans_CBS_136243:0.028419)[&label="56.2/74"]:0.011615,Arthrocladium_tropicale_CBS_134926:0.021498)[&label="100/100"]:0.116174,Knufia_walvisbayicola_CBS_146989:0.017788)[&label="99.8/78"]:0.031628,'Knufia_perforans_CBS_885.95':0.022698)[&label="0/26"]:2.0E-6,((Knufia_epidermidis_CBS_120353:1.0E-6,'Coniosporium_sp._CBS_123466':0.017092)[&label="97.9/100"]:0.005395,(Knufia_epidermidis_CCFEE_5814:0.004963,Knufia_epidermidis_CCFEE_5813:1.0E-6)[&label="0/83"]:3.0E-6)[&label="100/100"]:0.118706)[&label="36.4/39"]:0.010488,(((((Knufia_cryptophialidica_DAOM_216555:0.005109,Knufia_endospora_UAMH_10396:0.021857)[&label="100/100"]:0.072918,Knufia_perfecta_IRAN2553C:0.029186)[&label="100/100"]:0.032705,(((Knufia_mediterranea_CCFEE_6205:1.0E-6,Knufia_mediterranea_CCFEE_6211:1.0E-6)[&label="74.9/99"]:8.72E-4,Knufia_mediterranea_CBS_139721:2.0E-6)[&label="81/94"]:0.004381,Knufia_mediterranea_CCFEE5768:0.003659)[&label="100/100"]:0.060529)[&label="98.2/100"]:0.017563,'Knufia_separata_CGMCC3.17337':0.035028)[&label="99.5/96"]:0.021384,(Knufia_vaticanii_CBS_139722:0.042396,'Knufia_sp._MV-2018':0.015599)[&label="99.9/99"]:0.023142)[&label="89.9/15"]:0.006072)[&label="92/43"]:0.005388,('Knufia_calcarecola_CGMCC_3.17222':0.005865,('Knufia_sp._LS-2015bCGMCC3.17301':1.0E-6,Knufia_chersonesos_GS10017-8:1.0E-6)[&label="98.7/100"]:0.0089)[&label="99.9/100"]:0.016625)[&label="96.9/48"]:0.010593,((((Knufia_marmoricola_CCFEE_5726:0.051198,(((Knufia_marmoricola_CCFEE_5721:0.009125,(((Knufia_marmoricola_CCFEE_5923:0.0033,Knufia_marmoricola_CCFEE_5886:1.0E-6)[&label="0/42"]:2.0E-6,(Knufia_marmoricola_CCFEE_6201:0.0,Knufia_marmoricola_CCFEE_5892:0.0):1.0E-6)[&label="0/51"]:2.0E-6,Knufia_marmoricola_CBS_139726:1.0E-6)[&label="0/32"]:7.0E-6)[&label="0/34"]:2.0E-6,(Knufia_marmoricola_CCFEE_5725:1.0E-6,Knufia_marmoricola_CCFEE_5716:1.0E-6)[&label="94.8/97"]:0.00292)[&label="0/52"]:1.0E-6,Knufia_marmoricola_CCFEE_5902:0.017916)[&label="84.7/94"]:0.002643)[&label="0/62"]:1.0E-6,'Knufia_sp._NWHC45700-969':0.00797)[&label="97.3/72"]:0.010685,'Knufia_sp._CF285360':0.018004)[&label="97.8/58"]:0.012546,(Knufia_karalitana_CCFEE_6001:0.004835,((Knufia_karalitana_CCFEE_5732:0.003645,Knufia_karalitana_CBS_139720:1.0E-6)[&label="0/53"]:3.0E-6,(Knufia_karalitana_CCFEE_5921:3.0E-6,Knufia_karalitana_CCFEE_5929:2.0E-6)[&label="93.6/80"]:0.009285)[&label="95.6/89"]:0.011161)[&label="99.9/100"]:0.022311)[&label="93.1/52"]:0.006289)[&label="94.6/92"]:0.006311,((('Knufia_petricola_CBS_726.95':1.0E-6,Knufia_petricola_A95:1.0E-6)[&label="0/61"]:1.0E-6,Phaeococcomyces_chersonesos_CH49:9.78E-4)[&label="0/57"]:1.0E-6,Sarcinomyces_petricola_NIOCCY8:0.009005)[&label="100/100"]:0.023712)[&label="95/95"]:0.008137,('Knufia_sp._F1A':0.004115,Knufia_tsunedae_FMR_10621:0.005252)[&label="100/100"]:0.022621)[&label="97.7/100"]:0.01817,('Knufia_sp._SD-2017':0.013066,Capronia_peltigerae_UAMH_11090:0.010547)[&label="99.1/100"]:0.018839)[&label="99.7/100"]:0.047303,'Knufia_sp._CBMAI2122':0.056471)[&label="80.1/91"]:0.013787)[&label="100/100",!rotate=true]:0.059328,(((Neophaeococcomyces_aloes:0.022633,'Knufia_sp._DTO305-D4':0.011316)[&label="99.3/100"]:0.021123,Neophaeococcomyces_catenatus_UAMH_4357:0.018469)[&label="100/100"]:0.051659,((uncultured_Exophiala:0.009883,uncultured_Exophiala2:3.0E-6)[&label="100/100"]:0.036888,(('Knufia_sp._112':0.004133,(uncultured_fungus1:1.0E-6,uncultured_fungus9:1.0E-6)[&label="85/96"]:0.001894)[&label="40.4/74"]:0.002173,(((uncultured_fungus3:3.0E-6,uncultured_fungus8:3.0E-6)[&label="80.3/98"]:9.85E-4,(uncultured_fungus4:3.0E-6,uncultured_fungus7:2.0E-6)[&label="99.1/100"]:0.006313)[&label="0/87"]:2.0E-6,(uncultured_fungus2:1.0E-6,uncultured_fungus6:0.012642)[&label="88/76"]:0.01256)[&label="96/78"]:0.004719)[&label="100/100"]:0.040685)[&label="99.7/100"]:0.040911)[&label="99.6/100",!rotate=true]:0.049737);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="BPG Courier GPL&GNU";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=600;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="BPG Courier GPL&GNU";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute="User selection";
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Cantarell";
+	set tipLabels.fontSize=13;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

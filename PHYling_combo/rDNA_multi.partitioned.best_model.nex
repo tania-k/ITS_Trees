@@ -1,0 +1,14 @@
+#nexus
+begin sets;
+  charset ITS1 = 1-217;
+  charset LSU = 218-274;
+  charset ITS2 = 275-374;
+  charset SSU = 375-633;
+  charset 5_8S = 634-792;
+  charpartition mymodels =
+    TIM2e{1.53862,2.94841,5.1938}+FQ+G4{0.49223}: ITS1{2.66251},
+    JC: LSU{0.0606536},
+    TPM2{1.73307,1.774}+F{0.306594,0.189591,0.270984,0.232831}+G4{998.432}: ITS2{0.147567},
+    JC: SSU{1.98914},
+    JC: 5_8S{0.0735462};
+end;

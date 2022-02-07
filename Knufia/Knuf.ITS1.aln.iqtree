@@ -1,0 +1,475 @@
+IQ-TREE 2.1.1 COVID-edition built Aug 22 2020
+
+Input file name: Knuf.ITS1.aln
+Type of analysis: ModelFinder + tree reconstruction + non-parametric bootstrap (1000 replicates)
+Random seed number: 15895
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 64 sequences with 311 nucleotide sites
+Number of constant sites: 103 (= 33.119% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 103 (= 33.119% of all sites)
+Number of parsimony informative sites: 128
+Number of distinct site patterns: 268
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TIM2e+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+TIM2e+G4          -2977.946    6213.891 -   0.0111    6399.195 +    0.741    6696.325 +    0.707
+TIM2e+R3          -2970.965    6205.930 +    0.595    6403.189 +    0.101    6699.583 +    0.139
+TNe+G4            -2983.050    6222.100 - 0.000184    6403.550 +    0.084    6700.793 +   0.0757
+TIM2e+I+G4        -2978.692    6217.384 -  0.00194    6406.607 -   0.0182    6703.558 -    0.019
+TIM3e+G4          -2981.914    6221.828 -  0.00021    6407.132 -    0.014    6704.261 -   0.0134
+TIM2e+R2          -2979.122    6218.244 -  0.00126    6407.467 -   0.0118    6704.417 -   0.0124
+TIMe+G4           -2982.241    6222.483 - 0.000152    6407.787 -   0.0101    6704.916 -  0.00963
+SYM+G4            -2976.555    6215.111 -  0.00605    6408.317 -  0.00774    6705.024 -  0.00913
+TNe+R3            -2976.726    6215.452 -   0.0051    6408.658 -  0.00653    6705.364 -   0.0077
+TNe+I+G4          -2983.877    6225.753 - 2.95e-05    6411.057 -  0.00197    6708.186 -  0.00188
+SYM+R3            -2969.583    6207.165 +    0.321    6412.734 - 0.000851    6708.298 -  0.00178
+TIM3e+R3          -2975.598    6215.196 -  0.00579    6412.454 - 0.000979    6708.849 -  0.00135
+TIMe+R3           -2975.954    6215.908 -  0.00406    6413.166 - 0.000685    6709.561 - 0.000944
+TIM3e+I+G4        -2982.660    6225.321 - 3.67e-05    6414.543 - 0.000344    6711.494 - 0.000359
+TNe+R2            -2985.646    6229.292 - 5.04e-06    6414.595 - 0.000336    6711.725 -  0.00032
+SYM+I+G4          -2977.303    6218.607 -  0.00105    6415.865 - 0.000178    6712.259 - 0.000245
+TIMe+I+G4         -2983.070    6226.140 - 2.43e-05    6415.362 - 0.000229    6712.313 - 0.000239
+SYM+R2            -2977.485    6218.970 - 0.000878    6416.228 - 0.000148    6712.622 - 0.000204
+TIM2+F+G4         -2977.860    6219.719 - 0.000604    6416.978 - 0.000102    6713.372 -  0.00014
+TIM3e+R2          -2984.163    6228.326 - 8.16e-06    6417.548 - 7.66e-05    6714.499 - 7.99e-05
+TIMe+R2           -2984.723    6229.446 - 4.66e-06    6418.669 - 4.38e-05    6715.620 - 4.57e-05
+TIM2+F+R3         -2970.764    6211.528 -   0.0363    6421.356 - 1.14e-05    6716.400 - 3.09e-05
+TN+F+G4           -2982.691    6227.382 - 1.31e-05    6420.588 - 1.68e-05    6717.294 - 1.98e-05
+TIM2+F+I+G4       -2978.601    6223.203 - 0.000106    6424.581 - 2.28e-06    6720.595 - 3.79e-06
+TN+F+R3           -2975.999    6219.998 - 0.000525    6425.566 - 1.39e-06    6721.130 -  2.9e-06
+TIM+F+G4          -2981.965    6227.929 - 9.95e-06    6425.188 - 1.68e-06    6721.582 - 2.32e-06
+TIM2+F+R2         -2979.648    6225.295 - 3.71e-05    6426.674 -    8e-07    6722.688 - 1.33e-06
+TIM3+F+G4         -2982.671    6229.341 - 4.91e-06    6426.599 -  8.3e-07    6722.994 - 1.14e-06
+GTR+F+G4          -2977.627    6223.254 - 0.000103    6428.822 - 2.73e-07    6724.386 -  5.7e-07
+TN+F+I+G4         -2983.502    6231.003 - 2.14e-06    6428.262 - 3.62e-07    6724.656 - 4.98e-07
+TIM+F+R3          -2975.344    6220.688 - 0.000372    6430.517 - 1.17e-07    6725.560 - 3.17e-07
+TIM3+F+R3         -2975.973    6221.946 - 0.000198    6431.774 - 6.24e-08    6726.818 - 1.69e-07
+GTR+F+R3          -2970.533    6215.067 -  0.00618    6433.633 - 2.46e-08    6727.418 - 1.25e-07
+TIM+F+I+G4        -2982.777    6231.555 - 1.62e-06    6432.933 -  3.5e-08    6728.947 - 5.83e-08
+TN+F+R2           -2986.304    6236.607 -  1.3e-07    6433.866 - 2.19e-08    6730.260 - 3.02e-08
+TIM3+F+I+G4       -2983.479    6232.958 - 8.05e-07    6434.337 - 1.73e-08    6730.351 - 2.89e-08
+GTR+F+I+G4        -2978.351    6226.701 - 1.84e-05    6436.530 - 5.79e-09    6731.573 - 1.57e-08
+GTR+F+R2          -2979.359    6228.718 - 6.71e-06    6438.547 - 2.11e-09    6733.590 - 5.72e-09
+TIM+F+R2          -2985.353    6236.705 - 1.24e-07    6438.084 - 2.66e-09    6734.098 - 4.44e-09
+TIM3+F+R2         -2986.287    6238.574 - 4.86e-08    6439.953 - 1.05e-09    6735.967 - 1.74e-09
+TPM2u+F+G4        -2992.953    6247.906 - 4.57e-10    6441.113 - 5.85e-10    6737.819 -  6.9e-10
+TPM2+F+G4         -2992.953    6247.906 - 4.57e-10    6441.113 - 5.85e-10    6737.819 -  6.9e-10
+GTR+F+R4          -2970.344    6218.688 -  0.00101    6446.290 -  4.4e-11    6738.519 - 4.86e-10
+TPM2+F+R3         -2985.954    6239.909 - 2.49e-08    6445.477 - 6.61e-11    6741.041 - 1.38e-10
+TPM2u+F+R3        -2985.954    6239.909 - 2.49e-08    6445.477 - 6.61e-11    6741.041 - 1.38e-10
+HKY+F+G4          -2997.497    6254.994 - 1.32e-11    6444.217 - 1.24e-10    6741.167 - 1.29e-10
+K2P+G4            -3006.377    6266.754 - 3.69e-14    6444.415 - 1.12e-10    6741.708 - 9.87e-11
+TPM2+F+I+G4       -2993.679    6251.358 - 8.14e-11    6448.616 - 1.37e-11    6745.011 - 1.89e-11
+TPM2u+F+I+G4      -2993.679    6251.358 - 8.14e-11    6448.616 - 1.37e-11    6745.011 - 1.89e-11
+HKY+F+R3          -2990.989    6247.978 - 4.41e-10    6449.356 - 9.49e-12    6745.370 - 1.58e-11
+K3Pu+F+G4         -2996.740    6255.481 - 1.04e-11    6448.687 - 1.33e-11    6745.394 - 1.56e-11
+K2P+R3            -2999.730    6259.460 - 1.42e-12    6448.682 - 1.33e-11    6745.633 - 1.39e-11
+K3P+G4            -3005.519    6267.037 -  3.2e-14    6448.488 - 1.47e-11    6745.731 - 1.32e-11
+TPM3u+F+G4        -2997.466    6256.931 - 5.01e-12    6450.138 - 6.42e-12    6746.844 - 7.57e-12
+TPM3+F+G4         -2997.466    6256.931 - 5.01e-12    6450.138 - 6.42e-12    6746.844 - 7.57e-12
+TVMe+G4           -3000.672    6261.344 - 5.52e-13    6450.566 - 5.18e-12    6747.517 - 5.41e-12
+TPM2+F+R2         -2994.998    6253.996 - 2.18e-11    6451.254 - 3.68e-12    6747.648 - 5.06e-12
+TPM2u+F+R2        -2994.998    6253.996 - 2.18e-11    6451.254 - 3.68e-12    6747.648 - 5.06e-12
+HKY+F+I+G4        -2998.278    6258.555 - 2.23e-12    6451.762 - 2.85e-12    6748.468 - 3.36e-12
+TVM+F+G4          -2992.643    6251.286 - 8.43e-11    6452.665 - 1.82e-12    6748.679 - 3.03e-12
+K2P+I+G4          -3007.162    6270.323 -  6.2e-15    6451.774 - 2.83e-12    6749.017 - 2.55e-12
+K3Pu+F+R3         -2990.236    6248.472 - 3.44e-10    6454.040 - 9.13e-13    6749.604 -  1.9e-12
+K3P+R3            -2998.901    6259.803 - 1.19e-12    6453.010 - 1.53e-12    6749.716 -  1.8e-12
+TVMe+R3           -2993.402    6252.805 - 3.95e-11    6454.183 -  8.5e-13    6750.197 - 1.42e-12
+TPM3u+F+R3        -2990.965    6249.929 - 1.66e-10    6455.498 -  4.4e-13    6751.062 - 9.19e-13
+TPM3+F+R3         -2990.965    6249.929 - 1.66e-10    6455.498 -  4.4e-13    6751.062 - 9.19e-13
+TVM+F+R3          -2985.661    6243.322 - 4.52e-09    6457.483 - 1.63e-13    6751.934 - 5.94e-13
+K3Pu+F+I+G4       -2997.527    6259.054 - 1.74e-12    6456.312 - 2.93e-13    6752.706 - 4.04e-13
+K3P+I+G4          -3006.311    6270.621 - 5.34e-15    6455.925 - 3.56e-13    6753.054 - 3.39e-13
+TPM3u+F+I+G4      -2998.244    6260.488 - 8.47e-13    6457.747 - 1.43e-13    6754.141 - 1.97e-13
+TPM3+F+I+G4       -2998.244    6260.488 - 8.47e-13    6457.747 - 1.43e-13    6754.141 - 1.97e-13
+K2P+R2            -3009.737    6275.473 - 4.72e-16    6456.924 - 2.16e-13    6754.167 - 1.95e-13
+TVMe+R2           -3001.394    6264.789 - 9.86e-14    6457.995 - 1.26e-13    6754.702 - 1.49e-13
+TVMe+I+G4         -3001.404    6264.808 - 9.77e-14    6458.014 - 1.25e-13    6754.720 - 1.48e-13
+HKY+F+R2          -3001.809    6265.618 - 6.51e-14    6458.825 - 8.34e-14    6755.531 - 9.84e-14
+TVM+F+I+G4        -2993.372    6254.744 -  1.5e-11    6460.312 - 3.97e-14    6755.876 - 8.28e-14
+K3P+R2            -3008.708    6275.416 - 4.86e-16    6460.720 - 3.23e-14    6757.850 - 3.09e-14
+TVM+F+R2          -2994.633    6257.266 - 4.24e-12    6462.834 - 1.12e-14    6758.398 - 2.35e-14
+K3Pu+F+R2         -3000.695    6265.390 -  7.3e-14    6462.648 - 1.23e-14    6759.042 -  1.7e-14
+TPM3+F+R2         -3001.796    6267.593 - 2.43e-14    6464.851 -  4.1e-15    6761.246 - 5.65e-15
+TPM3u+F+R2        -3001.796    6267.593 - 2.43e-14    6464.851 -  4.1e-15    6761.246 - 5.65e-15
+F81+F+G4          -3025.078    6308.157 - 3.77e-23    6493.461 - 2.51e-21    6790.590 -  2.4e-21
+F81+F+R3          -3018.152    6300.303 - 1.91e-21    6497.562 - 3.23e-22    6793.956 - 4.46e-22
+JC+G4             -3036.636    6325.272 - 7.25e-27    6499.206 - 1.42e-22    6796.485 - 1.26e-22
+F81+F+I+G4        -3025.858    6311.716 - 6.37e-24    6500.938 - 5.98e-23    6797.889 - 6.24e-23
+JC+R3             -3029.520    6317.040 - 4.44e-25    6502.343 - 2.96e-23    6799.473 - 2.82e-23
+JC+I+G4           -3037.421    6328.842 - 1.22e-27    6506.503 -  3.7e-24    6803.795 - 3.25e-24
+F81+F+R2          -3029.014    6318.027 - 2.71e-25    6507.249 - 2.55e-24    6804.200 - 2.66e-24
+JC+R2             -3039.497    6332.993 - 1.53e-28    6510.654 - 4.64e-25    6807.947 - 4.08e-25
+GTR+F+I           -3072.306    6412.611 - 7.85e-46    6618.179 - 2.08e-48    6913.743 - 4.34e-48
+GTR+F             -3117.667    6501.335 - 4.25e-65    6702.713 - 9.15e-67    6998.727 - 1.53e-66
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TIM2e+G4
+
+Rate parameter R:
+
+  A-C: 1.5019
+  A-G: 1.2890
+  A-T: 1.5019
+  C-G: 1.0000
+  C-T: 4.2748
+  G-T: 1.0000
+
+State frequencies: (equal frequencies)
+
+Rate matrix Q:
+
+  A   -0.8124    0.2842    0.2439    0.2842
+  C    0.2842    -1.283    0.1893     0.809
+  G    0.2439    0.1893   -0.6225    0.1893
+  T    0.2842     0.809    0.1893    -1.283
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.7053
+
+ Category  Relative_rate  Proportion
+  1         0.07532        0.25
+  2         0.366          0.25
+  3         0.9268         0.25
+  4         2.632          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -2960.2846 (s.e. 155.2571)
+Unconstrained log-likelihood (without tree): -1714.8707
+Number of free parameters (#branches + #model parameters): 129
+Akaike information criterion (AIC) score: 6178.5693
+Corrected Akaike information criterion (AICc) score: 6363.8732
+Bayesian information criterion (BIC) score: 6661.0026
+
+Total tree length (sum of branch lengths): 5.6828
+Sum of internal branch lengths: 1.8430 (32.4313% of tree length)
+
+WARNING: 18 near-zero internal branches (<0.0032) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'SarcruUAMH4286|Sarcinomyces_crustaceus_UAMH_4286' is drawn at root
+Numbers in parentheses are  standard bootstrap support (%)
+
++-------------------------------------------SarcruUAMH4286|Sarcinomyces_crustaceus_UAMH_4286
+|
+|                       +-------------------------------------PhanigUAMH4084|Phaeococcomyces_nigricans_UAMH_4084
+|                   +---| (37)
+|                   |   |         +--ArtfulCBS136243|Arthrocladium_fulminans_CBS_136243
+|                   |   |      +--| (59)
+|                   |   |      |  +--ArtcauCBS45767|Arthrocladium_caudatum_CBS_457.67
+|                   |   |   +--| (38)
+|                   |   |   |  +--ArttroCBS134926|Arthrocladium_tropicale_CBS_134926
+|                   |   +---| (70)
+|                   |       +--ArttarCBS127021|Arthrocladium_tardum_CBS_127021
+|                +**| (4)
+|                |  |     +**KnumedCCFEE5768|Knufia_mediterranea_CCFEE5768
+|                |  +-----| (99)
+|                |        |  +--KnumedCBS139721|Knufia_mediterranea_CBS_139721
+|                |        +**| (82)
+|                |           |  +**KnumedCCFEE6205|Knufia_mediterranea_CCFEE_6205
+|                |           +--| (65)
+|                |              +**KnumedCCFEE6211|Knufia_mediterranea_CCFEE_6211
+|             +--| (19)
+|             |  |                       +------KnuvatCBS139722|Knufia_vaticanii_CBS_139722
+|             |  |                    +--| (38)
+|             |  |                    |  +--KnucalCGMCC317222|Knufia_calcarecola_CGMCC_3.17222
+|             |  |                 +--| (27)
+|             |  |                 |  |  +**KnuspLS-2015bCGMCC317301|Knufia_sp._LS-2015bCGMCC3.17301
+|             |  |                 |  +--| (86)
+|             |  |                 |     +**KnucheGS100178|Knufia_chersonesos_GS10017-8
+|             |  |              +--| (13)
+|             |  |              |  |     +--KnuspCF285360|Knufia_sp._CF285360
+|             |  |              |  |  +--| (42)
+|             |  |              |  |  |  +--KnuspMV2018|Knufia_sp._MV-2018
+|             |  |              |  +--| (23)
+|             |  |              |     |     +--KnuspNWHC45700969|Knufia_sp._NWHC45700-969
+|             |  |              |     |  +**| (56)
+|             |  |              |     |  |  +**KnumarCCFEE5726|Knufia_marmoricola_CCFEE_5726
+|             |  |              |     +--| (82)
+|             |  |              |        |        +**KnumarCCFEE5923|Knufia_marmoricola_CCFEE_5923
+|             |  |              |        |     +**| (9)
+|             |  |              |        |     |  +**KnumarCCFEE5721|Knufia_marmoricola_CCFEE_5721
+|             |  |              |        |  +**| (43)
+|             |  |              |        |  |  |  +**KnumarCCFEE5725|Knufia_marmoricola_CCFEE_5725
+|             |  |              |        |  |  +**| (8)
+|             |  |              |        |  |     +**KnumarCBS139726|Knufia_marmoricola_CBS_139726
+|             |  |              |        +--| (57)
+|             |  |              |           |           +--KnumarCCFEE5902|Knufia_marmoricola_CCFEE_5902
+|             |  |              |           |        +**| (19)
+|             |  |              |           |        |  +**KnumarCCFEE6201|Knufia_marmoricola_CCFEE_6201
+|             |  |              |           |     +**| (17)
+|             |  |              |           |     |  +**KnumarCCFEE5886|Knufia_marmoricola_CCFEE_5886
+|             |  |              |           |  +**| (39)
+|             |  |              |           |  |  +**KnumarCCFEE5892|Knufia_marmoricola_CCFEE_5892
+|             |  |              |           +**| (27)
+|             |  |              |              +**KnumarCCFEE5716|Knufia_marmoricola_CCFEE_5716
+|             |  |           +--| (7)
+|             |  |           |  |  +--KnuvalCBS146989|Knufia_walvisbayicola_CBS_146989
+|             |  |           |  +--| (29)
+|             |  |           |     +--KnuperCBS88595|Knufia_perforans_CBS_885.95
+|             |  |        +--| (6)
+|             |  |        |  |  +**KnukarCCFEE6001|Knufia_karalitana_CCFEE_6001
+|             |  |        |  +--| (74)
+|             |  |        |     |        +--KnukarCCFEE5929|Knufia_karalitana_CCFEE_5929
+|             |  |        |     |     +**| (23)
+|             |  |        |     |     |  +**KnukarCCFEE5921|Knufia_karalitana_CCFEE_5921
+|             |  |        |     |  +**| (28)
+|             |  |        |     |  |  +**KnukarCBS139720|Knufia_karalitana_CBS_139720
+|             |  |        |     +--| (71)
+|             |  |        |        +**KnukarCCFEE5732|Knufia_karalitana_CCFEE_5732
+|             |  |     +--| (5)
+|             |  |     |  |        +--SarpetNIOCCY8|Sarcinomyces_petricola_NIOCCY8
+|             |  |     |  |     +**| (18)
+|             |  |     |  |     |  +**PhacheCH49|Phaeococcomyces_chersonesos_CH49
+|             |  |     |  |  +**| (18)
+|             |  |     |  |  |  +**KnupetCBS72695|Knufia_petricola_CBS_726.95
+|             |  |     |  +**| (56)
+|             |  |     |     +**KnupetA95|Knufia_petricola_A95
+|             |  |  +--| (1)
+|             |  |  |  |              +--KnuepiCCFEE5813|Knufia_epidermidis_CCFEE_5813
+|             |  |  |  |           +--| (82)
+|             |  |  |  |           |  |  +**KnuepiCBS120353|Knufia_epidermidis_CBS_120353
+|             |  |  |  |           |  +**| (52)
+|             |  |  |  |           |     +**KnuepiCCFEE5814|Knufia_epidermidis_CCFEE_5814
+|             |  |  |  |        +--| (89)
+|             |  |  |  |        |  +--ConspCBS123466|Coniosporium_sp._CBS_123466
+|             |  |  |  |     +--| (6)
+|             |  |  |  |     |  +--KnusepCGMCC317337|Knufia_separata_CGMCC3.17337
+|             |  |  |  |  +--| (3)
+|             |  |  |  |  |  +--KnuperIRAN2553C|Knufia_perfecta_IRAN2553C
+|             |  |  |  +--| (2)
+|             |  |  |     |  +--KnuendUAMH10396|Knufia_endospora_UAMH_10396
+|             |  |  |     +--| (76)
+|             |  |  |        +--KnucryDAOM216555|Knufia_cryptophialidica_DAOM_216555
+|             |  +--| (0)
+|             |     |     +-------KnuspCBMAI2122|Knufia_sp._CBMAI2122
+|             |     |  +--| (13)
+|             |     |  |  |  +--KnuspF1A|Knufia_sp._F1A
+|             |     |  |  +--| (100)
+|             |     |  |     +**KnutsuFMR10621|Knufia_tsunedae_FMR_10621
+|             |     +--| (19)
+|             |        |  +--KnuspSD2017|Knufia_sp._SD-2017
+|             |        +--| (80)
+|             |           +--CappelUAMH11090|Capronia_peltigerae_UAMH_11090
+|         +---| (30)
+|         |   |                            +--uncfun2|uncultured_fungus__
+|         |   |                         +**| (38)
+|         |   |                         |  +--uncExo|uncultured_Exophiala__
+|         |   |                      +--| (72)
+|         |   |                      |  +**Knusp112|Knufia_sp._112
+|         |   |                   +--| (88)
+|         |   |                   |  +--uncfun1|uncultured_fungus__
+|         |   |                +--| (63)
+|         |   |                |  +--uncfun4|uncultured_fungus__
+|         |   |           +----| (88)
+|         |   |           |    +--uncfun5|uncultured_fungus__
+|         |   |  +--------| (95)
+|         |   |  |        |  +--KnuspDTO305D4|Knufia_sp._DTO305-D4
+|         |   |  |        +--| (47)
+|         |   |  |           +----NeocatUAMH4357|Neophaeococcomyces_catenatus_UAMH_4357
+|         |   +--| (29)
+|         |      +--------------ExoderCBS20735|Exophiala_dermatitidis_CBS_207.35
++---------| (40)
+|         +-----KnuspFH2012|Knufia_sp._FH-2012
+|
+|     +--LitgutM1|Lithohypha_guttulata_M1
+|  +--| (48)
+|  |  +--LitspCCFEE6069|Lithohypha_sp._CCFEE_6069
++**| (92)
+   +--LitaloCPC35996|Lithohypha_aloicola_CPC_35996
+
+Tree in newick format:
+
+(SarcruUAMH4286|Sarcinomyces_crustaceus_UAMH_4286:1.0137002624,(((((PhanigUAMH4084|Phaeococcomyces_nigricans_UAMH_4084:0.8810402518,(((ArtfulCBS136243|Arthrocladium_fulminans_CBS_136243:0.0597374437,ArtcauCBS45767|Arthrocladium_caudatum_CBS_457.67:0.0466338095)59:0.0547044752,ArttroCBS134926|Arthrocladium_tropicale_CBS_134926:0.0220825339)38:0.0245581129,ArttarCBS127021|Arthrocladium_tardum_CBS_127021:0.0153129495)70:0.1020945466)37:0.0963740411,(KnumedCCFEE5768|Knufia_mediterranea_CCFEE5768:0.0000010000,(KnumedCBS139721|Knufia_mediterranea_CBS_139721:0.0108465839,(KnumedCCFEE6205|Knufia_mediterranea_CCFEE_6205:0.0000010000,KnumedCCFEE6211|Knufia_mediterranea_CCFEE_6211:0.0000010000)65:0.0059003557)82:0.0000023894)99:0.1388126906)4:0.0000024901,((((((((KnuvatCBS139722|Knufia_vaticanii_CBS_139722:0.1753585067,KnucalCGMCC317222|Knufia_calcarecola_CGMCC_3.17222:0.0198735287)38:0.0172282469,(KnuspLS-2015bCGMCC317301|Knufia_sp._LS-2015bCGMCC3.17301:0.0000010000,KnucheGS100178|Knufia_chersonesos_GS10017-8:0.0000010000)86:0.0135482307)27:0.0131958721,((KnuspCF285360|Knufia_sp._CF285360:0.0555757433,KnuspMV2018|Knufia_sp._MV-2018:0.0516338041)42:0.0145316793,((KnuspNWHC45700969|Knufia_sp._NWHC45700-969:0.0126020454,KnumarCCFEE5726|Knufia_marmoricola_CCFEE_5726:0.0000010000)56:0.0000010000,(((KnumarCCFEE5923|Knufia_marmoricola_CCFEE_5923:0.0000010000,KnumarCCFEE5721|Knufia_marmoricola_CCFEE_5721:0.0000010000)9:0.0000010000,(KnumarCCFEE5725|Knufia_marmoricola_CCFEE_5725:0.0000010000,KnumarCBS139726|Knufia_marmoricola_CBS_139726:0.0000010000)8:0.0000010000)43:0.0000010000,((((KnumarCCFEE5902|Knufia_marmoricola_CCFEE_5902:0.0471709780,KnumarCCFEE6201|Knufia_marmoricola_CCFEE_6201:0.0000010000)19:0.0000026738,KnumarCCFEE5886|Knufia_marmoricola_CCFEE_5886:0.0000010000)17:0.0000010000,KnumarCCFEE5892|Knufia_marmoricola_CCFEE_5892:0.0000010000)39:0.0000010000,KnumarCCFEE5716|Knufia_marmoricola_CCFEE_5716:0.0000010000)27:0.0000010000)57:0.0056065934)82:0.0117788669)23:0.0059836204)13:0.0132272192,(KnuvalCBS146989|Knufia_walvisbayicola_CBS_146989:0.0457371874,KnuperCBS88595|Knufia_perforans_CBS_885.95:0.0119657204)29:0.0063686565)7:0.0056839570,(KnukarCCFEE6001|Knufia_karalitana_CCFEE_6001:0.0000010000,(((KnukarCCFEE5929|Knufia_karalitana_CCFEE_5929:0.0055237342,KnukarCCFEE5921|Knufia_karalitana_CCFEE_5921:0.0000010000)23:0.0000021014,KnukarCBS139720|Knufia_karalitana_CBS_139720:0.0000010000)28:0.0000023005,KnukarCCFEE5732|Knufia_karalitana_CCFEE_5732:0.0000010000)71:0.0111591865)74:0.0227795340)6:0.0119756441,(((SarpetNIOCCY8|Sarcinomyces_petricola_NIOCCY8:0.0418886184,PhacheCH49|Phaeococcomyces_chersonesos_CH49:0.0000010000)18:0.0000010000,KnupetCBS72695|Knufia_petricola_CBS_726.95:0.0000010000)18:0.0000010000,KnupetA95|Knufia_petricola_A95:0.0000010000)56:0.0000021601)5:0.0094992090,(((((KnuepiCCFEE5813|Knufia_epidermidis_CCFEE_5813:0.0069599379,(KnuepiCBS120353|Knufia_epidermidis_CBS_120353:0.0000010000,KnuepiCCFEE5814|Knufia_epidermidis_CCFEE_5814:0.0000010000)52:0.0000010000)82:0.0158254867,ConspCBS123466|Coniosporium_sp._CBS_123466:0.0526655165)89:0.0898602955,KnusepCGMCC317337|Knufia_separata_CGMCC3.17337:0.0541606393)6:0.0223592493,KnuperIRAN2553C|Knufia_perfecta_IRAN2553C:0.0079426517)3:0.0115406020,(KnuendUAMH10396|Knufia_endospora_UAMH_10396:0.0350240097,KnucryDAOM216555|Knufia_cryptophialidica_DAOM_216555:0.0199819873)76:0.0442032578)2:0.0078686937)1:0.0282361817,((KnuspCBMAI2122|Knufia_sp._CBMAI2122:0.1871482667,(KnuspF1A|Knufia_sp._F1A:0.0065952374,KnutsuFMR10621|Knufia_tsunedae_FMR_10621:0.0000010000)100:0.0520671798)13:0.0098387055,(KnuspSD2017|Knufia_sp._SD-2017:0.0140208843,CappelUAMH11090|Capronia_peltigerae_UAMH_11090:0.0204582998)80:0.0379877560)19:0.0199333618)0:0.0116815886)19:0.0431510212,(((((((uncfun2|uncultured_fungus__:0.0203571598,uncExo|uncultured_Exophiala__:0.0463324135)38:0.0000023827,Knusp112|Knufia_sp._112:0.0000010000)72:0.0209662297,uncfun1|uncultured_fungus__:0.0217278943)88:0.0444726002,uncfun4|uncultured_fungus__:0.0062894039)63:0.0334980390,uncfun5|uncultured_fungus__:0.0183967498)88:0.1161368626,(KnuspDTO305D4|Knufia_sp._DTO305-D4:0.0650797729,NeocatUAMH4357|Neophaeococcomyces_catenatus_UAMH_4357:0.1153948610)47:0.0284702887)95:0.2094172699,ExoderCBS20735|Exophiala_dermatitidis_CBS_207.35:0.3521845849)29:0.0783990144)30:0.1066241998,KnuspFH2012|Knufia_sp._FH-2012:0.1534257607)40:0.2388817598,((LitgutM1|Lithohypha_guttulata_M1:0.0469210267,LitspCCFEE6069|Lithohypha_sp._CCFEE_6069:0.0392426345)48:0.0060030181,LitaloCPC35996|Lithohypha_aloicola_CPC_35996:0.0133323564)92:0.0000020218);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -2969.677640
+Robinson-Foulds distance between ML tree and consensus tree: 36
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++----------------------------------------SarcruUAMH4286|Sarcinomyces_crustaceus_UAMH_4286
+|
+|                          +------------------------------------PhanigUAMH4084|Phaeococcomyces_nigricans_UAMH_4084
+|                      +---| (37)
+|                      |   |          +--ArtfulCBS136243|Arthrocladium_fulminans_CBS_136243
+|                      |   |       +--| (59)
+|                      |   |       |  +--ArtcauCBS45767|Arthrocladium_caudatum_CBS_457.67
+|                      |   |    +--| (38)
+|                      |   |    |  +--ArttroCBS134926|Arthrocladium_tropicale_CBS_134926
+|                      |   +----| (70)
+|                      |        +--ArttarCBS127021|Arthrocladium_tardum_CBS_127021
+|                   +--| (2)
+|                   |  |  +--KnuendUAMH10396|Knufia_endospora_UAMH_10396
+|                   |  +--| (76)
+|                   |     +--KnucryDAOM216555|Knufia_cryptophialidica_DAOM_216555
+|                +--| (0)
+|                |  |  +--------KnuspCBMAI2122|Knufia_sp._CBMAI2122
+|                |  +--| (19)
+|                |     |     +--KnuspSD2017|Knufia_sp._SD-2017
+|                |     |  +--| (80)
+|                |     |  |  +--CappelUAMH11090|Capronia_peltigerae_UAMH_11090
+|                |     +--| (23)
+|                |        |  +--KnuspF1A|Knufia_sp._F1A
+|                |        +--| (100)
+|                |           +--KnutsuFMR10621|Knufia_tsunedae_FMR_10621
+|             +--| (5)
+|             |  |              +------KnuvatCBS139722|Knufia_vaticanii_CBS_139722
+|             |  |           +--| (38)
+|             |  |           |  +--KnucalCGMCC317222|Knufia_calcarecola_CGMCC_3.17222
+|             |  |        +--| (27)
+|             |  |        |  |  +--KnuspLS-2015bCGMCC317301|Knufia_sp._LS-2015bCGMCC3.17301
+|             |  |        |  +--| (86)
+|             |  |        |     +--KnucheGS100178|Knufia_chersonesos_GS10017-8
+|             |  |     +--| (13)
+|             |  |     |  |     +--KnuspCF285360|Knufia_sp._CF285360
+|             |  |     |  |  +--| (42)
+|             |  |     |  |  |  +--KnuspMV2018|Knufia_sp._MV-2018
+|             |  |     |  +--| (23)
+|             |  |     |     |     +--KnuspNWHC45700969|Knufia_sp._NWHC45700-969
+|             |  |     |     |  +--| (56)
+|             |  |     |     |  |  +--KnumarCCFEE5726|Knufia_marmoricola_CCFEE_5726
+|             |  |     |     +--| (82)
+|             |  |     |        |        +--KnumarCCFEE5923|Knufia_marmoricola_CCFEE_5923
+|             |  |     |        |     +--| (10)
+|             |  |     |        |     |  +--KnumarCBS139726|Knufia_marmoricola_CBS_139726
+|             |  |     |        |  +--| (43)
+|             |  |     |        |  |  |  +--KnumarCCFEE5721|Knufia_marmoricola_CCFEE_5721
+|             |  |     |        |  |  +--| (11)
+|             |  |     |        |  |     +--KnumarCCFEE5725|Knufia_marmoricola_CCFEE_5725
+|             |  |     |        +--| (57)
+|             |  |     |           |           +--KnumarCCFEE5902|Knufia_marmoricola_CCFEE_5902
+|             |  |     |           |        +--| (23)
+|             |  |     |           |        |  +--KnumarCCFEE5886|Knufia_marmoricola_CCFEE_5886
+|             |  |     |           |     +--| (18)
+|             |  |     |           |     |  +--KnumarCCFEE5892|Knufia_marmoricola_CCFEE_5892
+|             |  |     |           |  +--| (39)
+|             |  |     |           |  |  +--KnumarCCFEE6201|Knufia_marmoricola_CCFEE_6201
+|             |  |     |           +--| (27)
+|             |  |     |              +--KnumarCCFEE5716|Knufia_marmoricola_CCFEE_5716
+|             |  |  +--| (3)
+|             |  |  |  |         +--KnumedCCFEE5768|Knufia_mediterranea_CCFEE5768
+|             |  |  |  |  +------| (99)
+|             |  |  |  |  |      |  +--KnumedCBS139721|Knufia_mediterranea_CBS_139721
+|             |  |  |  |  |      +--| (82)
+|             |  |  |  |  |         |  +--KnumedCCFEE6205|Knufia_mediterranea_CCFEE_6205
+|             |  |  |  |  |         +--| (65)
+|             |  |  |  |  |            +--KnumedCCFEE6211|Knufia_mediterranea_CCFEE_6211
+|             |  |  |  +--| (9)
+|             |  |  |     |  +--KnuvalCBS146989|Knufia_walvisbayicola_CBS_146989
+|             |  |  |     +--| (29)
+|             |  |  |        +--KnuperCBS88595|Knufia_perforans_CBS_885.95
+|             |  +--| (0)
+|             |     |        +--KnusepCGMCC317337|Knufia_separata_CGMCC3.17337
+|             |     |     +--| (12)
+|             |     |     |  |  +--KnukarCCFEE6001|Knufia_karalitana_CCFEE_6001
+|             |     |     |  +--| (74)
+|             |     |     |     |        +--KnukarCCFEE5929|Knufia_karalitana_CCFEE_5929
+|             |     |     |     |     +--| (45)
+|             |     |     |     |     |  +--KnukarCCFEE5732|Knufia_karalitana_CCFEE_5732
+|             |     |     |     |  +--| (25)
+|             |     |     |     |  |  +--KnukarCBS139720|Knufia_karalitana_CBS_139720
+|             |     |     |     +--| (71)
+|             |     |     |        +--KnukarCCFEE5921|Knufia_karalitana_CCFEE_5921
+|             |     |  +--| (7)
+|             |     |  |  +--KnuperIRAN2553C|Knufia_perfecta_IRAN2553C
+|             |     +--| (0)
+|             |        |        +--SarpetNIOCCY8|Sarcinomyces_petricola_NIOCCY8
+|             |        |     +--| (19)
+|             |        |     |  +--KnupetA95|Knufia_petricola_A95
+|             |        |  +--| (21)
+|             |        |  |  +--KnupetCBS72695|Knufia_petricola_CBS_726.95
+|             |        +--| (56)
+|             |           +--PhacheCH49|Phaeococcomyces_chersonesos_CH49
+|          +--| (19)
+|          |  |     +--KnuepiCCFEE5813|Knufia_epidermidis_CCFEE_5813
+|          |  |  +--| (82)
+|          |  |  |  |  +--KnuepiCBS120353|Knufia_epidermidis_CBS_120353
+|          |  |  |  +--| (52)
+|          |  |  |     +--KnuepiCCFEE5814|Knufia_epidermidis_CCFEE_5814
+|          |  +--| (89)
+|          |     +--ConspCBS123466|Coniosporium_sp._CBS_123466
+|      +---| (30)
+|      |   |                          +--uncfun2|uncultured_fungus__
+|      |   |                       +--| (38)
+|      |   |                       |  +--uncExo|uncultured_Exophiala__
+|      |   |                    +--| (72)
+|      |   |                    |  +--Knusp112|Knufia_sp._112
+|      |   |                 +--| (88)
+|      |   |                 |  +--uncfun1|uncultured_fungus__
+|      |   |              +--| (63)
+|      |   |              |  +--uncfun4|uncultured_fungus__
+|      |   |          +---| (88)
+|      |   |          |   +--uncfun5|uncultured_fungus__
+|      |   |  +-------| (95)
+|      |   |  |       |  +--KnuspDTO305D4|Knufia_sp._DTO305-D4
+|      |   |  |       +--| (47)
+|      |   |  |          +---NeocatUAMH4357|Neophaeococcomyces_catenatus_UAMH_4357
+|      |   +--| (29)
+|      |      +--------------ExoderCBS20735|Exophiala_dermatitidis_CBS_207.35
++------| (40)
+|      +------KnuspFH2012|Knufia_sp._FH-2012
+|
+|     +--LitgutM1|Lithohypha_guttulata_M1
+|  +--| (48)
+|  |  +--LitspCCFEE6069|Lithohypha_sp._CCFEE_6069
++--| (92)
+   +--LitaloCPC35996|Lithohypha_aloicola_CPC_35996
+
+
+Consensus tree in newick format: 
+
+(SarcruUAMH4286|Sarcinomyces_crustaceus_UAMH_4286:0.9738497202,(((((((PhanigUAMH4084|Phaeococcomyces_nigricans_UAMH_4084:0.8838377996,(((ArtfulCBS136243|Arthrocladium_fulminans_CBS_136243:0.0588242261,ArtcauCBS45767|Arthrocladium_caudatum_CBS_457.67:0.0441106638)59:0.0498358617,ArttroCBS134926|Arthrocladium_tropicale_CBS_134926:0.0219007843)38:0.0242937215,ArttarCBS127021|Arthrocladium_tardum_CBS_127021:0.0140419862)70:0.1358354480)37:0.1131830099,(KnuendUAMH10396|Knufia_endospora_UAMH_10396:0.0272987280,KnucryDAOM216555|Knufia_cryptophialidica_DAOM_216555:0.0341538378)76:0.0000025429)2:0.0440049135,(KnuspCBMAI2122|Knufia_sp._CBMAI2122:0.2133684708,((KnuspSD2017|Knufia_sp._SD-2017:0.0205429058,CappelUAMH11090|Capronia_peltigerae_UAMH_11090:0.0138569820)80:0.0510176619,(KnuspF1A|Knufia_sp._F1A:0.0065270036,KnutsuFMR10621|Knufia_tsunedae_FMR_10621:0.0000025777)100:0.0409970755)23:0.0000024253)19:0.0525930733)0:0.0000029315,(((((KnuvatCBS139722|Knufia_vaticanii_CBS_139722:0.1743395316,KnucalCGMCC317222|Knufia_calcarecola_CGMCC_3.17222:0.0201119560)38:0.0169082436,(KnuspLS-2015bCGMCC317301|Knufia_sp._LS-2015bCGMCC3.17301:0.0000025777,KnucheGS100178|Knufia_chersonesos_GS10017-8:0.0000025777)86:0.0134503181)27:0.0133020986,((KnuspCF285360|Knufia_sp._CF285360:0.0552820072,KnuspMV2018|Knufia_sp._MV-2018:0.0513439751)42:0.0144731303,((KnuspNWHC45700969|Knufia_sp._NWHC45700-969:0.0125667806,KnumarCCFEE5726|Knufia_marmoricola_CCFEE_5726:0.0000025777)56:0.0000025777,(((KnumarCCFEE5923|Knufia_marmoricola_CCFEE_5923:0.0000025777,KnumarCBS139726|Knufia_marmoricola_CBS_139726:0.0000025777)10:0.0000025777,(KnumarCCFEE5721|Knufia_marmoricola_CCFEE_5721:0.0000025777,KnumarCCFEE5725|Knufia_marmoricola_CCFEE_5725:0.0000025777)11:0.0000025777)43:0.0000025777,((((KnumarCCFEE5902|Knufia_marmoricola_CCFEE_5902:0.0000025798,KnumarCCFEE5886|Knufia_marmoricola_CCFEE_5886:0.0000025777)23:0.0000026377,KnumarCCFEE5892|Knufia_marmoricola_CCFEE_5892:0.0000025777)18:0.0000028485,KnumarCCFEE6201|Knufia_marmoricola_CCFEE_6201:0.0000025777)39:0.0470473386,KnumarCCFEE5716|Knufia_marmoricola_CCFEE_5716:0.0000025777)27:0.0000022412)57:0.0055999405)82:0.0118090374)23:0.0059446675)13:0.0130772524,((KnumedCCFEE5768|Knufia_mediterranea_CCFEE5768:0.0000025862,(KnumedCBS139721|Knufia_mediterranea_CBS_139721:0.0067093643,(KnumedCCFEE6205|Knufia_mediterranea_CCFEE_6205:0.0000025777,KnumedCCFEE6211|Knufia_mediterranea_CCFEE_6211:0.0000025777)65:0.0058179647)82:0.0040108217)99:0.1764188307,(KnuvalCBS146989|Knufia_walvisbayicola_CBS_146989:0.0452176554,KnuperCBS88595|Knufia_perforans_CBS_885.95:0.0121482274)29:0.0000020073)9:0.0061687848)3:0.0173253594,(((KnusepCGMCC317337|Knufia_separata_CGMCC3.17337:0.0756514755,(KnukarCCFEE6001|Knufia_karalitana_CCFEE_6001:0.0000025777,(((KnukarCCFEE5929|Knufia_karalitana_CCFEE_5929:0.0055112744,KnukarCCFEE5732|Knufia_karalitana_CCFEE_5732:0.0000025777)45:0.0069764399,KnukarCBS139720|Knufia_karalitana_CBS_139720:0.0000025777)25:0.0041090242,KnukarCCFEE5921|Knufia_karalitana_CCFEE_5921:0.0000025777)71:0.0000025551)74:0.0185605688)12:0.0097290876,KnuperIRAN2553C|Knufia_perfecta_IRAN2553C:0.0170166887)7:0.0062615952,(((SarpetNIOCCY8|Sarcinomyces_petricola_NIOCCY8:0.0432914984,KnupetA95|Knufia_petricola_A95:0.0000025777)19:0.0000026031,KnupetCBS72695|Knufia_petricola_CBS_726.95:0.0000025777)21:0.0000026031,PhacheCH49|Phaeococcomyces_chersonesos_CH49:0.0000025777)56:0.0000020073)0:0.0000020073)0:0.0000021552)5:0.0496121289,((KnuepiCCFEE5813|Knufia_epidermidis_CCFEE_5813:0.0068883917,(KnuepiCBS120353|Knufia_epidermidis_CBS_120353:0.0000025777,KnuepiCCFEE5814|Knufia_epidermidis_CCFEE_5814:0.0000025777)52:0.0000025777)82:0.0187505712,ConspCBS123466|Coniosporium_sp._CBS_123466:0.0516095685)89:0.0625724405)19:0.0441186485,(((((((uncfun2|uncultured_fungus__:0.0201772682,uncExo|uncultured_Exophiala__:0.0460118858)38:0.0000028073,Knusp112|Knufia_sp._112:0.0000025862)72:0.0207547966,uncfun1|uncultured_fungus__:0.0215010129)88:0.0442468006,uncfun4|uncultured_fungus__:0.0061063128)63:0.0334846032,uncfun5|uncultured_fungus__:0.0182944900)88:0.1089326749,(KnuspDTO305D4|Knufia_sp._DTO305-D4:0.0645350572,NeocatUAMH4357|Neophaeococcomyces_catenatus_UAMH_4357:0.1135180136)47:0.0340848524)95:0.1920757230,ExoderCBS20735|Exophiala_dermatitidis_CBS_207.35:0.3760368519)29:0.0788432225)30:0.1008133492,KnuspFH2012|Knufia_sp._FH-2012:0.1783885632)40:0.1815340139,((LitgutM1|Lithohypha_guttulata_M1:0.0460793951,LitspCCFEE6069|Lithohypha_sp._CCFEE_6069:0.0387277867)48:0.0059653386,LitaloCPC35996|Lithohypha_aloicola_CPC_35996:0.0131132860)92:0.0165439363);
+
+TIME STAMP
+----------
+
+Date and time: Fri Feb  4 01:28:37 2022
+Total CPU time used: 298.73212 seconds (0h:4m:58s)
+Total wall-clock time used: 151.2934279 seconds (0h:2m:31s)
+

@@ -1,0 +1,85 @@
+IQ-TREE multicore version 2.1.1 COVID-edition for Linux 64-bit built Aug 22 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    m02 (AVX, 503 GB RAM)
+Command: iqtree2 -s Knuf.rDNA_multi.mfa -p Knufia_multi.partitions.nex -nt AUTO -pre Knuf.rDNA_multi.partitioned -bb 1000 -alrt 1000
+Seed:    546760 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Feb  5 10:52:09 2022
+Kernel:  AVX - auto-detect threads (4 CPU cores detected)
+
+Reading partition model file Knufia_multi.partitions.nex ...
+Reading alignment file Knuf.rDNA_multi.mfa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 64 sequences with 1410 columns, 540 distinct patterns
+259 parsimony-informative, 166 singleton sites, 984 constant sites
+                          Gap/Ambiguity  Composition  p-value
+   1  SarcruUAMH4286             54.96%    passed      5.76%
+   2  PhanigUAMH4084             64.61%    passed     65.83%
+   3  ExoderCBS20735             54.54%    passed     84.40%
+   4  LitaloCPC35996             58.23%    passed     31.80%
+   5  LitgutM1                   58.65%    passed     30.07%
+   6  LitspCCFEE6069             58.72%    passed     26.20%
+   7  KnuspDTO305D4              58.09%    passed     74.75%
+   8  NeocatUAMH4357             60.35%    passed     75.61%
+   9  uncExo                     53.69%    passed     90.23%
+  10  Knusp112                   62.48%    passed     91.65%
+  11  uncfun4                    56.52%    passed     93.81%
+  12  uncfun5                    65.89%    passed     88.49%
+  13  uncfun1                    48.16%    passed     96.41%
+  14  KnuspFH2012                60.78%    passed     72.80%
+  15  ArtcauCBS45767             60.28%    passed     50.25%
+  16  ArtfulCBS136243            60.43%    passed     78.50%
+  17  ArttarCBS127021            60.43%    passed     73.92%
+  18  ArttroCBS134926            56.17%    passed     94.97%
+  19  KnucryDAOM216555           53.69%    passed     73.16%
+  20  KnuendUAMH10396            61.35%    passed     54.22%
+  21  KnuspCBMAI2122             65.11%    passed     90.39%
+  22  KnuperIRAN2553C            61.13%    passed     95.07%
+  23  KnuepiCBS120353            61.70%    passed     56.45%
+  24  ConspCBS123466             61.99%    passed     68.04%
+  25  KnuepiCCFEE5813            59.01%    passed     60.01%
+  26  KnuepiCCFEE5814            60.50%    passed     59.79%
+  27  KnumedCCFEE6205            58.30%    passed     73.71%
+  28  KnumedCCFEE6211            53.83%    passed     93.03%
+  29  KnumedCBS139721            57.59%    passed     74.92%
+  30  KnumedCCFEE5768            57.45%    passed     74.16%
+  31  KnumarCCFEE5726            66.31%    passed     92.36%
+  32  KnusepCGMCC317337          61.42%    passed     96.44%
+  33  KnuspSD2017                52.34%    passed     83.58%
+  34  CappelUAMH11090            61.42%    passed     95.89%
+  35  KnuvatCBS139722            57.02%    passed     86.19%
+  36  KnuvalCBS146989            55.96%    passed     96.85%
+  37  KnupetCBS72695             56.95%    passed     99.70%
+  38  KnupetA95                  54.11%    passed     95.05%
+  39  PhacheCH49                 17.02%    failed      4.26%
+  40  SarpetNIOCCY8              62.84%    passed     98.59%
+  41  KnuspF1A                   59.57%    passed     99.12%
+  42  KnutsuFMR10621             62.20%    passed     97.32%
+  43  KnuspMV2018                46.74%    passed     85.05%
+  44  KnuperCBS88595             60.78%    passed     81.33%
+  45  KnucalCGMCC317222          61.42%    passed     97.73%
+  46  KnuspLS-2015bCGMCC317301   60.78%    passed     94.44%
+  47  KnucheGS100178             61.56%    passed     97.14%
+  48  KnukarCCFEE6001            59.22%    passed     97.14%
+  49  KnukarCCFEE5732            59.57%    passed     97.55%
+  50  KnukarCCFEE5921            57.59%    passed     98.29%
+  51  KnukarCBS139720            53.55%    passed     96.35%
+  52  KnukarCCFEE5929            61.63%    passed     86.81%
+  53  KnumarCCFEE5721            59.86%    passed     99.11%
+  54  KnumarCCFEE5923            60.57%    passed     99.76%
+  55  KnumarCCFEE5725            59.57%    passed     99.74%
+  56  KnumarCCFEE5716            59.93%    passed     99.89%
+  57  KnumarCCFEE5902            59.79%    passed     99.45%
+  58  KnumarCBS139726            61.56%    passed     98.37%
+  59  KnumarCCFEE6201            57.59%    passed     99.88%
+  60  KnumarCCFEE5886            55.60%    passed     98.35%
+  61  KnumarCCFEE5892            57.73%    passed     99.96%
+  62  KnuspCF285360              18.87%    failed      4.24%
+  63  KnuspNWHC45700969          61.21%    passed     95.91%
+  64  uncfun2                    82.84%    passed     76.60%
+WARNING: 60 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                      57.96%  2 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Loading 5 partitions...
+ERROR: Too large site ID

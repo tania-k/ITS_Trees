@@ -1,0 +1,15 @@
+Clasp115|Cladosporium_sp._115	End of SSU sequence not found
+ClasilCBS109082|Cladosporium_silenes_CBS:109082	End of SSU sequence not found; Start of LSU sequence not found
+ClasphaCBS1935|Cladosporium_sphaerospermum_CBS	End of SSU sequence not found; Start of LSU sequence not found
+ClasubCBS113754|Cladosporium_subtilissimum_CBS:113754	End of SSU sequence not found; Start of LSU sequence not found
+ClaherCBS121626|Cladosporium_herbaroides_CBS:121626	End of SSU sequence not found
+ClaxanCPC1160|Cladosporium_xantochromaticum_CPC:11609	End of SSU sequence not found
+ClavarCBS126362|Cladosporium_varians_CBS	Start of LSU sequence not found
+ClascaCBS126358|Cladosporium_scabrellum_CBS	Start of LSU sequence not found
+FunspTRN471|Fungal_sp._TRN471	End of SSU sequence not found; Start of LSU sequence not found
+RacmcmCCFEE5211|Rachicladosporium_mcmurdoi_CCFEE	End of SSU sequence not found; Start of LSU sequence not found
+RacspCC2021a|Rachicladosporium_sp._CC-2021a	End of SSU sequence not found; Start of LSU sequence not found
+OlemirCCFEE5523|Oleoguttula_mirabilis_CCFEE	End of SSU sequence not found; Start of LSU sequence not found
+OlespUFMGCB12624|Oleoguttula_sp._UFMGCB12624	End of SSU sequence not found; Start of LSU sequence not found
+OlemirEXF13080|Oleoguttula_mirabilis_EXF-13080	Start of LSU sequence not found
+OlemirCCFEE5522|Oleoguttula_mirabilis_CCFEE	End of SSU sequence not found; Start of LSU sequence not found

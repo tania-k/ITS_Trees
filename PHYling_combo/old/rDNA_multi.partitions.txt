@@ -1,0 +1,5 @@
+DNA, Chaet_2.ITS1 = 1-294
+DNA, Chaet_2.LSU = 295-394
+DNA, Chaet_2.ITS2 = 395-661
+DNA, Chaet_2.SSU = 662-826
+DNA, Chaet_2.5_8S = 827-985

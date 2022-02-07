@@ -1,0 +1,23 @@
+Dothsp119|Dothideales_sp._119	End of SSU sequence not found
+AscspNWHC46419|Ascomycota_sp._NWHC46419-007_2SD	Start of LSU sequence not found
+UncfunLR993703|Uncultured_fungus_LR993703.1	End of SSU sequence not found
+ElsoleCBS22759|Elsinoe_oleae_CBS	End of SSU sequence not found; Start of LSU sequence not found
+ElspitCBS22750|Elsinoe_pitangae_CBS	Start of LSU sequence not found
+ElsmanCBS22650|Elsinoe_mangiferae_CBS	End of SSU sequence not found; Start of LSU sequence not found
+Elscal22150|Elsinoe_caleae_CBS	End of SSU sequence not found; Start of LSU sequence not found
+ElszizCBS37862|Elsinoe_zizyphi_CBS	End of SSU sequence not found; Start of LSU sequence not found
+ElshevCBS17956|Elsinoe_heveae_CBS	End of SSU sequence not found; Start of LSU sequence not found
+ElslepCBS22550|Elsinoe_lepagei_CBS	Start of LSU sequence not found
+ElsjasCBS22450|Elsinoe_jasmini_CBS	End of SSU sequence not found; Start of LSU sequence not found
+ElsdioCBS22350|Elsinoe_diospyri_CBS	Start of LSU sequence not found
+ElscenCBS22250|Elsinoe_centrolobii_CBS	Start of LSU sequence not found
+ElsarruCBS22050|Elsinoe_arrudai_CBS	Start of LSU sequence not found
+ElsphaCBS16531|Elsinoe_phaseoli_CBS	Start of LSU sequence not found
+DelabiKX364384|Delphinella_abietis_KX364384	End of SSU sequence not found; Start of LSU sequence not found
+GroabiCbFap2016|Grovesiella_abieticola_CbFap2016ID_13	Start of LSU sequence not found
+AurpulEXF915|Aureobasidium_pullulans_EXF-915	End of SSU sequence not found; Start of LSU sequence not found
+AurpulCBS100280|Aureobasidium_pullulans_CBS	End of SSU sequence not found; Start of LSU sequence not found
+AurpulEXF150|Aureobasidium_pullulans_EXF-150	End of SSU sequence not found; Start of LSU sequence not found
+AurpulCBS70176|Aureobasidium_pullulans_CBS	End of SSU sequence not found; Start of LSU sequence not found
+MyrhisCBS24733|Myriangium_hispanicum_CBS	Start of LSU sequence not found; ITS region is suspiciously long (> 1500 bp)
+MyrspEF109|Myriangium_sp._EF109	End of SSU sequence not found

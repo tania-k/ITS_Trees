@@ -1,0 +1,38 @@
+Loading vcftools/0.1.13
+  Loading requirement: tabix/0.2.6
+IQ-TREE multicore version 2.1.1 COVID-edition for Linux 64-bit built Aug 22 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    m02 (AVX, 503 GB RAM)
+Command: iqtree2 -nt 2 -s 119.SSU.fasta -b 1000
+Seed:    996036 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Feb  3 21:21:00 2022
+Kernel:  AVX - 2 threads (2 CPU cores detected)
+
+Reading alignment file 119.SSU.fasta ... Fasta format detected
+ERROR: Sequence UncfunLX042399|Uncultured_fungus_LX042399-122-056-F01 contains not enough characters (51)
+ERROR: Sequence UncfunHG764536|Uncultured_fungus_HG764536 contains not enough characters (30)
+ERROR: Sequence AscspNWHC46419|Ascomycota_sp._NWHC46419-007_2SD contains not enough characters (32)
+ERROR: Sequence StispMK136|Stigmina_sp._mk136 contains not enough characters (50)
+ERROR: Sequence SarcruUAMH4286|Sarcinomyces_crustaceus_UAMH contains not enough characters (42)
+ERROR: Sequence UncfunL049481|Uncultured_fungus_L049481H09 contains not enough characters (32)
+ERROR: Sequence Funend9042|Fungal_endophyte_9042 contains not enough characters (34)
+ERROR: Sequence AurspRF2017a|Aureobasidium_sp._RF-2017a contains not enough characters (41)
+ERROR: Sequence SchspJY119|Schwanniomyces_sp._JY119 contains not enough characters (32)
+ERROR: Sequence ElspitCBS22750|Elsinoe_pitangae_CBS contains not enough characters (41)
+ERROR: Sequence ElslepCBS22550|Elsinoe_lepagei_CBS contains too many characters (141)
+ERROR: Sequence ElsdioCBS22350|Elsinoe_diospyri_CBS contains not enough characters (83)
+ERROR: Sequence ElscenCBS22250|Elsinoe_centrolobii_CBS contains too many characters (396)
+ERROR: Sequence ElsarruCBS22050|Elsinoe_arrudai_CBS contains too many characters (141)
+ERROR: Sequence ElsphaCBS16531|Elsinoe_phaseoli_CBS contains too many characters (137)
+ERROR: Sequence ElsfawCBS13925|Elsinoe_fawcettii_CBS contains not enough characters (45)
+ERROR: Sequence DelbalDJOB080615|Delphinella_balsameae_DJO-B-080615-A4 contains not enough characters (40)
+ERROR: Sequence DelstroCBS73571|Delphinella_strobiligena_CBS contains too many characters (129)
+ERROR: Sequence Delabi10669|Delphinella_abietis_10669 contains not enough characters (32)
+ERROR: Sequence SydpolRBEB250515|Sydowia_polyspora_RBE-B-250515-A2 contains not enough characters (40)
+ERROR: Sequence GroabiCbFap2016|Grovesiella_abieticola_CbFap2016ID_13 contains too many characters (357)
+ERROR: Sequence MyrdurCBS26036|Myriangium_duriaei_CBS contains not enough characters (39)
+ERROR: Sequence MyrharCBS30034|Myriangium_haraeanum_CBS contains not enough characters (39)
+ERROR: Sequence MyrhisCBS24733|Myriangium_hispanicum_CBS contains too many characters (496)
+ERROR: 

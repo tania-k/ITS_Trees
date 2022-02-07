@@ -1,0 +1,9 @@
+#nexus
+begin sets;
+charset ITS1 = 1-261;
+charset ITS2 = 262-495;
+charset 5_8S = 496-655;
+charset LSU = 656-1262;
+charset SSU = 1263-1430;
+charpartition rDNA = TIM2e+G4:ITS1, JC:LSU, TPM2+F+G4:ITS2, JC:SSU, JC+I:5_8S;
+end;

@@ -1,0 +1,143 @@
+IQ-TREE 2.1.1 COVID-edition built Aug 22 2020
+
+Partition file name: rDNA_multi.partitions.txt
+Input file name: rDNA_multi.mfa
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 393151
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used partition models please also cite:
+
+Olga Chernomor, Arndt von Haeseler, and Bui Quang Minh (2016)
+Terrace aware data structure for phylogenomic inference from
+supermatrices. Syst. Biol., 65:997-1008.
+https://doi.org/10.1093/sysbio/syw037
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 26 taxa with 5 partitions and 985 total sites (14.5881% missing data)
+
+  ID  Name          Type	Seq	Site	Unique	Infor	Invar	Const
+   1  Chaet_2.ITS1  DNA	26	294	206	102	143	143
+   2  Chaet_2.LSU   DNA	16	100	31	0	97	97
+   3  Chaet_2.ITS2  DNA	25	267	149	75	146	146
+   4  Chaet_2.SSU   DNA	12	165	40	0	155	155
+   5  Chaet_2.5_8S  DNA	25	159	15	6	149	149
+
+Column meanings:
+  Unique: Number of unique site patterns
+  Infor:  Number of parsimony-informative sites
+  Invar:  Number of invariant sites
+  Const:  Number of constant sites (can be subset of invariant sites)
+
+SUBSTITUTION PROCESS
+--------------------
+
+Edge-linked-proportional partition model with separate substitution models and separate rates across sites
+
+  ID  Model           Speed  Parameters
+   1  GTR+F          1.7218  GTR{1.39783,1.1722,1.71533,0.966353,3.57201}+F{0.227708,0.319163,0.225803,0.227327}
+   2  GTR+F          0.0655  GTR{66.2211,100,0.0001,0.0001,0.0001}+F{0.286397,0.217434,0.281288,0.21488}
+   3  GTR+F          1.5957  GTR{1.18094,2.14208,1.55867,0.54352,3.30976}+F{0.181345,0.304607,0.262915,0.251133}
+   4  GTR+F          0.2171  GTR{1.03303,0.750546,2.70354,1.16395,4.18826}+F{0.28979,0.202606,0.274584,0.233019}
+   5  GTR+F          0.0652  GTR{1.10104,1.02796,1.89769,0.0001,5.67062}+F{0.26774,0.224459,0.242577,0.265224}
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -4625.0797 (s.e. 189.0593)
+Unconstrained log-likelihood (without tree): -3766.4752
+Number of free parameters (#branches + #model parameters): 93
+Akaike information criterion (AIC) score: 9436.1594
+Corrected Akaike information criterion (AICc) score: 9455.7823
+Bayesian information criterion (BIC) score: 9891.1751
+
+Total tree length (sum of branch lengths): 1.1899
+Sum of internal branch lengths: 0.4657 (39.1402% of tree length)
+
+WARNING: 2 near-zero internal branches (<0.0010) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'LaloCPC35996' is drawn at root
+
++--LaloCPC35996
+|
++--LgutM1
+|
+|                                  +----------------LcatCGMCC31408
+|                               +--|
+|                               |  +-------KmedCBS129721
+|                            +--|
+|                            |  |        +-----------KvatCBS139722
+|                            |  |     +--|
+|                            |  |     |  |           +----KtsuFMR10621
+|                            |  |     |  |        +--|
+|                            |  |     |  |        |  +--KpetCBS726.95
+|                            |  |     |  |     +--|
+|                            |  |     |  |     |  +---KkarCBS139720
+|                            |  |     |  |  +**|
+|                            |  |     |  |  |  +----KcalCGMCC317222
+|                            |  |     |  +--|
+|                            |  |     |     |  +--KmarCBS139726
+|                            |  |     |     +--|
+|                            |  |     |        +--KperCBS88595
+|                            |  |  +--|
+|                            |  |  |  |      +--KcryDAOM21655
+|                            |  |  |  +------|
+|                            |  |  |         +--KendUAMH10396
+|                            |  +--|
+|                            |     +-------KepiCBS120353
+|                   +--------|
+|                   |        |          +---AfulCBS136243
+|                   |        |       +--|
+|                   |        |       |  |  +--AtarCBS127021
+|                   |        |       |  +--|
+|                   |        |       |     +--AtroCBS134926
+|                   |        +-------|
+|                   |                +---AcauCBS45767
++-------------------|
+                    |     +-------------------------------EderCBS201735
+                    +-----|
+                          |        +---------------KF777182
+                          +--------|
+                                   |       +--MN835758
+                                   |    +--|
+                                   |    |  |     +--JES112
+                                   |    |  |  +--|
+                                   |    |  |  |  |  +--UDB0768601
+                                   |    |  |  |  +--|
+                                   |    |  |  |     +**UDB0768448
+                                   |    |  +**|
+                                   |    |     +--UDB0768474
+                                   +----|
+                                        +--MG707512
+
+Tree in newick format:
+
+(LaloCPC35996:0.0067321259,LgutM1:0.0153545712,((((LcatCGMCC31408:0.0864829102,KmedCBS129721:0.0433758939):0.0164587073,(((KvatCBS139722:0.0599716850,((((KtsuFMR10621:0.0265833139,KpetCBS726.95:0.0071405437):0.0036859696,KkarCBS139720:0.0233445810):0.0113123782,KcalCGMCC317222:0.0269555659):0.0000022985,(KmarCBS139726:0.0137343499,KperCBS88595:0.0105248563):0.0067296944):0.0065134879):0.0133957998,(KcryDAOM21655:0.0141848489,KendUAMH10396:0.0067939585):0.0356655649):0.0123171110,KepiCBS120353:0.0425897446):0.0052372746):0.0175106924,((AfulCBS136243:0.0222600372,(AtarCBS127021:0.0123000247,AtroCBS134926:0.0153077852):0.0082166171):0.0133374488,AcauCBS45767:0.0215655049):0.0425346613):0.0449731585,(EderCBS201735:0.1577417809,(KF777182:0.0789556505,((MN835758:0.0057783334,((JES112:0.0111578652,(UDB0768601:0.0031305519,UDB0768448:0.0000026510):0.0046849426):0.0014451856,UDB0768474:0.0015658831):0.0000021268):0.0118532000,MG707512:0.0106640102):0.0280630571):0.0478278715):0.0325568836):0.1014225963);
+
+TIME STAMP
+----------
+
+Date and time: Mon Mar 22 12:47:09 2021
+Total CPU time used: 42.572 seconds (0h:0m:42s)
+Total wall-clock time used: 21.2206 seconds (0h:0m:21s)
+

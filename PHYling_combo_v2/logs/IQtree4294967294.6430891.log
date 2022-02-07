@@ -1,0 +1,52 @@
+Loading vcftools/0.1.13
+  Loading requirement: tabix/0.2.6
+IQ-TREE multicore version 2.1.1 COVID-edition for Linux 64-bit built Aug 22 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    m02 (AVX, 503 GB RAM)
+Command: iqtree2 -nt 2 -s 119.ITS1.fasta -b 1000
+Seed:    355636 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Feb  3 21:20:27 2022
+Kernel:  AVX - 2 threads (2 CPU cores detected)
+
+Reading alignment file 119.ITS1.fasta ... Fasta format detected
+ERROR: Sequence ZalalbDAOMC250847|Zalaria_alba_DAOM contains not enough characters (179)
+ERROR: Sequence UncfunLX042399|Uncultured_fungus_LX042399-122-056-F01 contains not enough characters (183)
+ERROR: Sequence UncfunHG764536|Uncultured_fungus_HG764536 contains not enough characters (193)
+ERROR: Sequence AscspNWHC46419|Ascomycota_sp._NWHC46419-007_2SD contains not enough characters (193)
+ERROR: Sequence StispMK136|Stigmina_sp._mk136 contains not enough characters (177)
+ERROR: Sequence SarcruUAMH4286|Sarcinomyces_crustaceus_UAMH contains not enough characters (180)
+ERROR: Sequence UncfunL049481|Uncultured_fungus_L049481H09 contains not enough characters (179)
+ERROR: Sequence UncfunLR993703|Uncultured_fungus_LR993703.1 contains not enough characters (195)
+ERROR: Sequence Funend9042|Fungal_endophyte_9042 contains not enough characters (180)
+ERROR: Sequence AurspRF2017a|Aureobasidium_sp._RF-2017a contains not enough characters (179)
+ERROR: Sequence ZarlobsDAOMC250849|Zalaria_obscura_DAOM contains not enough characters (179)
+ERROR: Sequence SchspJY119|Schwanniomyces_sp._JY119 contains not enough characters (179)
+ERROR: Sequence ElsoleCBS22759|Elsinoe_oleae_CBS contains not enough characters (209)
+ERROR: Sequence ElspitCBS22750|Elsinoe_pitangae_CBS contains not enough characters (205)
+ERROR: Sequence ElsmanCBS22650|Elsinoe_mangiferae_CBS contains too many characters (214)
+ERROR: Sequence ElszizCBS37862|Elsinoe_zizyphi_CBS contains too many characters (213)
+ERROR: Sequence ElshevCBS17956|Elsinoe_heveae_CBS contains too many characters (212)
+ERROR: Sequence ElslepCBS22550|Elsinoe_lepagei_CBS contains not enough characters (184)
+ERROR: Sequence ElsjasCBS22450|Elsinoe_jasmini_CBS contains not enough characters (206)
+ERROR: Sequence ElsdioCBS22350|Elsinoe_diospyri_CBS contains not enough characters (204)
+ERROR: Sequence ElscenCBS22250|Elsinoe_centrolobii_CBS contains not enough characters (200)
+ERROR: Sequence ElsarruCBS22050|Elsinoe_arrudai_CBS contains not enough characters (206)
+ERROR: Sequence ElsphaCBS16531|Elsinoe_phaseoli_CBS contains not enough characters (192)
+ERROR: Sequence ElsfawCBS13925|Elsinoe_fawcettii_CBS contains not enough characters (199)
+ERROR: Sequence DelbalDJOB080615|Delphinella_balsameae_DJO-B-080615-A4 contains not enough characters (180)
+ERROR: Sequence DelabiKX364384|Delphinella_abietis_KX364384 contains not enough characters (138)
+ERROR: Sequence DelstroCBS73571|Delphinella_strobiligena_CBS contains not enough characters (180)
+ERROR: Sequence Delabi10669|Delphinella_abietis_10669 contains not enough characters (180)
+ERROR: Sequence SydpolRBEB250515|Sydowia_polyspora_RBE-B-250515-A2 contains not enough characters (180)
+ERROR: Sequence GroabiCbFap2016|Grovesiella_abieticola_CbFap2016ID_13 contains not enough characters (207)
+ERROR: Sequence AurpulEXF915|Aureobasidium_pullulans_EXF-915 contains not enough characters (186)
+ERROR: Sequence AurpulCBS100280|Aureobasidium_pullulans_CBS contains not enough characters (186)
+ERROR: Sequence AurpulEXF150|Aureobasidium_pullulans_EXF-150 contains not enough characters (186)
+ERROR: Sequence AurpulCBS70176|Aureobasidium_pullulans_CBS contains not enough characters (185)
+ERROR: Sequence MyrdurCBS26036|Myriangium_duriaei_CBS contains not enough characters (162)
+ERROR: Sequence MyrharCBS30034|Myriangium_haraeanum_CBS contains not enough characters (165)
+ERROR: Sequence MyrhisCBS24733|Myriangium_hispanicum_CBS contains not enough characters (162)
+ERROR: Sequence MyrspEF109|Myriangium_sp._EF109 contains not enough characters (185)
+ERROR: 

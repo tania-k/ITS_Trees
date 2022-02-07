@@ -1,0 +1,376 @@
+IQ-TREE 2.1.1 COVID-edition built Aug 22 2020
+
+Input file name: 119.5_8S.aln
+Type of analysis: ModelFinder + tree reconstruction + non-parametric bootstrap (1000 replicates)
+Random seed number: 615866
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 40 sequences with 158 nucleotide sites
+Number of constant sites: 151 (= 95.5696% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 151 (= 95.5696% of all sites)
+Number of parsimony informative sites: 6
+Number of distinct site patterns: 11
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: JC+I
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+JC+I               -282.005     720.009 +    0.284     876.009 +    0.756     958.892 +    0.734
+JC+G4              -283.989     723.978 -    0.039     879.978 +    0.104     962.861 +    0.101
+K2P+I              -281.896     721.792 +    0.117     883.843 -    0.015     963.737 +   0.0651
+JC+I+G4            -282.511     723.021 +    0.063     885.073 -  0.00813     964.966 -   0.0352
+JC                 -287.840     729.681 -  0.00226     879.831 +    0.112     965.501 -    0.027
+K2P+G4             -283.889     725.778 -   0.0159     887.829 -  0.00205     967.723 -  0.00887
+K3P+I              -281.469     722.938 +   0.0657     891.250 -  0.00037     967.946 -  0.00794
+TNe+I              -281.504     723.008 +   0.0634     891.320 - 0.000358     968.016 -  0.00767
+K2P+I+G4           -282.407     724.814 -   0.0257     893.125 - 0.000145     969.821 -  0.00311
+K2P                -287.743     731.485 - 0.000915     887.485 -  0.00243     970.368 -  0.00236
+TNe+G4             -283.325     726.650 -   0.0103     894.961 - 5.79e-05     971.657 -  0.00124
+K3P+G4             -283.531     727.061 -  0.00836     895.373 - 4.72e-05     972.069 -  0.00101
+TIMe+I             -281.081     724.162 -   0.0356     898.951 - 7.88e-06     972.232 - 0.000931
+TIM2e+I            -281.160     724.320 -   0.0329     899.110 - 7.28e-06     972.390 -  0.00086
+TIM3e+I            -281.420     724.840 -   0.0254     899.630 - 5.61e-06     972.910 - 0.000663
+F81+F+I            -281.686     725.371 -   0.0195     900.161 -  4.3e-06     973.442 - 0.000509
+TNe+I+G4           -281.897     725.793 -   0.0158     900.582 - 3.49e-06     973.863 - 0.000412
+K3P+I+G4           -282.022     726.044 -   0.0139     900.834 - 3.07e-06     974.114 - 0.000363
+TNe                -287.145     732.291 - 0.000612     894.342 -  7.9e-05     974.236 - 0.000342
+K3P                -287.399     732.799 - 0.000475     894.850 - 6.12e-05     974.744 - 0.000265
+TIM2e+G4           -282.930     727.860 -  0.00561     902.649 - 1.24e-06     975.930 - 0.000147
+TIMe+G4            -282.966     727.932 -  0.00541     902.721 -  1.2e-06     976.002 - 0.000141
+TVMe+I             -280.473     724.946 -   0.0241     906.440 - 1.86e-07     976.079 - 0.000136
+TIM3e+G4           -283.120     728.239 -  0.00464     903.029 - 1.03e-06     976.309 - 0.000121
+F81+F+G4           -283.679     729.357 -  0.00265     904.147 - 5.86e-07     977.428 - 6.93e-05
+TIMe+I+G4          -281.526     727.051 -   0.0084     908.544 - 6.51e-08     978.184 - 4.75e-05
+TIM2e+I+G4         -281.534     727.069 -  0.00833     908.562 - 6.45e-08     978.201 - 4.71e-05
+HKY+F+I            -281.562     727.124 -   0.0081     908.617 - 6.27e-08     978.256 - 4.58e-05
+TIM2e              -286.745     733.491 - 0.000336     901.802 - 1.89e-06     978.498 - 4.06e-05
+TIMe               -286.801     733.603 - 0.000317     901.915 - 1.79e-06     978.610 - 3.84e-05
+TIM3e+I+G4         -281.769     727.537 -  0.00659     909.031 -  5.1e-08     978.670 - 3.72e-05
+TIM3e              -286.898     733.796 - 0.000288     902.108 - 1.63e-06     978.804 - 3.48e-05
+F81+F+I+G4         -282.196     728.392 -   0.0043     909.885 - 3.33e-08     979.525 - 2.43e-05
+TVMe+G4            -282.267     728.534 -    0.004     910.028 -  3.1e-08     979.667 - 2.26e-05
+F81+F              -287.533     735.066 - 0.000153     903.378 - 8.61e-07     980.074 - 1.85e-05
+SYM+I              -280.050     726.100 -   0.0135     914.532 - 3.26e-09     980.295 - 1.65e-05
+TVMe+I+G4          -280.872     727.743 -  0.00594     916.176 - 1.43e-09     981.939 - 7.26e-06
+TVMe               -286.062     734.123 - 0.000245     908.912 - 5.41e-08     982.193 -  6.4e-06
+HKY+F+G4           -283.573     731.145 -  0.00108     912.639 -  8.4e-09     982.278 - 6.13e-06
+TN+F+I             -281.079     728.158 -  0.00483     916.590 - 1.16e-09     982.353 - 5.91e-06
+TPM2+F+I           -281.138     728.275 -  0.00456     916.708 -  1.1e-09     982.471 - 5.57e-06
+TPM2u+F+I          -281.138     728.275 -  0.00456     916.708 -  1.1e-09     982.471 - 5.57e-06
+K3Pu+F+I           -281.155     728.309 -  0.00448     916.742 - 1.08e-09     982.505 - 5.47e-06
+TPM3u+F+I          -281.528     729.056 -  0.00308     917.488 - 7.43e-10     983.251 - 3.77e-06
+TPM3+F+I           -281.528     729.056 -  0.00308     917.488 - 7.43e-10     983.251 - 3.77e-06
+SYM+G4             -281.692     729.384 -  0.00262     917.816 - 6.31e-10     983.579 -  3.2e-06
+HKY+F+I+G4         -282.082     730.163 -  0.00177     918.596 - 4.27e-10     984.359 - 2.17e-06
+HKY+F              -287.432     736.864 - 6.22e-05     911.654 - 1.37e-08     984.935 - 1.62e-06
+SYM+I+G4           -280.364     728.727 -  0.00363     924.344 - 2.41e-11     985.985 -  9.6e-07
+TN+F+G4            -282.929     731.857 -  0.00076     920.290 - 1.83e-10     986.053 - 9.29e-07
+SYM                -285.468     734.935 - 0.000163     916.429 - 1.26e-09     986.068 - 9.22e-07
+TPM2u+F+G4         -283.096     732.192 - 0.000643     920.625 - 1.55e-10     986.388 - 7.86e-07
+TPM2+F+G4          -283.096     732.192 - 0.000643     920.625 - 1.55e-10     986.388 - 7.86e-07
+TIM2+F+I           -280.651     729.303 -  0.00273     924.919 - 1.81e-11     986.561 -  7.2e-07
+TIM+F+I            -280.683     729.365 -  0.00264     924.982 - 1.75e-11     986.623 - 6.98e-07
+K3Pu+F+G4          -283.229     732.457 - 0.000563     920.890 - 1.36e-10     986.653 - 6.88e-07
+TPM3+F+G4          -283.444     732.888 - 0.000454     921.321 - 1.09e-10     987.084 - 5.55e-07
+TPM3u+F+G4         -283.444     732.888 - 0.000454     921.321 - 1.09e-10     987.084 - 5.55e-07
+TIM3+F+I           -281.048     730.096 -  0.00183     925.712 - 1.22e-11     987.354 - 4.85e-07
+TN+F+I+G4          -281.481     730.962 -  0.00119     926.579 - 7.89e-12     988.220 - 3.14e-07
+TPM2u+F+I+G4       -281.600     731.200 -  0.00106     926.816 - 7.01e-12     988.458 - 2.79e-07
+TPM2+F+I+G4        -281.600     731.200 -  0.00106     926.816 - 7.01e-12     988.458 - 2.79e-07
+TN+F               -286.765     737.530 - 4.45e-05     919.024 - 3.45e-10     988.663 - 2.52e-07
+K3Pu+F+I+G4        -281.715     731.430 - 0.000941     927.046 - 6.25e-12     988.688 - 2.49e-07
+TPM2u+F            -286.959     737.917 - 3.67e-05     919.411 - 2.84e-10     989.050 - 2.07e-07
+TPM2+F             -286.959     737.917 - 3.67e-05     919.411 - 2.84e-10     989.050 - 2.07e-07
+TPM3u+F+I+G4       -281.985     731.970 - 0.000718     927.586 - 4.77e-12     989.228 -  1.9e-07
+TPM3+F+I+G4        -281.985     731.970 - 0.000718     927.586 - 4.77e-12     989.228 -  1.9e-07
+K3Pu+F             -287.101     738.202 - 3.18e-05     919.696 - 2.47e-10     989.335 -  1.8e-07
+TPM3u+F            -287.266     738.533 -  2.7e-05     920.026 - 2.09e-10     989.666 - 1.53e-07
+TPM3+F             -287.266     738.533 -  2.7e-05     920.026 - 2.09e-10     989.666 - 1.53e-07
+TIM2+F+G4          -282.457     732.914 - 0.000448     928.530 - 2.98e-12     990.172 - 1.18e-07
+TIM+F+G4           -282.586     733.171 - 0.000394     928.788 - 2.62e-12     990.429 - 1.04e-07
+TVM+F+I            -280.108     730.216 -  0.00173     933.271 - 2.78e-13     990.536 - 9.87e-08
+TIM3+F+G4          -282.806     733.611 - 0.000316     929.228 -  2.1e-12     990.869 - 8.36e-08
+TIM2+F+I+G4        -281.025     732.050 -  0.00069     935.105 - 1.11e-13     992.370 - 3.94e-08
+TIM+F+I+G4         -281.117     732.235 - 0.000629     935.290 - 1.01e-13     992.555 -  3.6e-08
+TIM2+F             -286.292     738.585 - 2.63e-05     927.017 - 6.34e-12     992.780 - 3.21e-08
+TIM+F              -286.434     738.869 - 2.28e-05     927.301 -  5.5e-12     993.064 - 2.79e-08
+TIM3+F+I+G4        -281.412     732.825 - 0.000468     935.881 - 7.54e-14     993.146 - 2.68e-08
+TIM3+F             -286.600     739.200 - 1.93e-05     927.632 - 4.66e-12     993.395 - 2.36e-08
+TVM+F+G4           -281.940     733.881 - 0.000276     936.936 - 4.45e-14     994.201 - 1.58e-08
+GTR+F+I            -279.600     731.201 -  0.00106     941.961 - 3.61e-15     994.584 -  1.3e-08
+TVM+F+I+G4         -280.534     733.067 - 0.000415     943.828 - 1.42e-15     996.450 - 5.13e-09
+TVM+F              -285.756     739.512 - 1.65e-05     935.129 -  1.1e-13     996.770 - 4.37e-09
+GTR+F+G4           -281.306     734.611 - 0.000192     945.372 - 6.55e-16     997.994 - 2.37e-09
+GTR+F+I+G4         -279.947     733.894 - 0.000274     952.637 - 1.73e-17    1000.340 - 7.34e-10
+GTR+F              -285.132     740.264 - 1.14e-05     943.320 - 1.83e-15    1000.585 - 6.49e-10
+GTR+F+R3           -278.436     734.871 - 0.000168     970.459 - 2.34e-21    1007.442 -  2.1e-11
+GTR+F+R2           -283.699     741.399 - 6.44e-06     960.141 - 4.07e-19    1007.844 - 1.72e-11
+GTR+F+R4           -278.419     738.838 - 2.32e-05     992.535 - 3.76e-26    1017.534 - 1.35e-13
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: JC+I
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 1.0000
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 1.0000
+  G-T: 1.0000
+
+State frequencies: (equal frequencies)
+
+Rate matrix Q:
+
+  A        -1    0.3333    0.3333    0.3333
+  C    0.3333        -1    0.3333    0.3333
+  G    0.3333    0.3333        -1    0.3333
+  T    0.3333    0.3333    0.3333        -1
+
+Model of rate heterogeneity: Invar
+Proportion of invariable sites: 0.9254
+
+ Category  Relative_rate  Proportion
+  0         0              0.9254
+  1         13.4           0.07462
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -281.9019 (s.e. 21.4377)
+Unconstrained log-likelihood (without tree): -251.0403
+Number of free parameters (#branches + #model parameters): 78
+Akaike information criterion (AIC) score: 719.8037
+Corrected Akaike information criterion (AICc) score: 875.8037
+Bayesian information criterion (BIC) score: 958.6861
+
+Total tree length (sum of branch lengths): 0.0689
+Sum of internal branch lengths: 0.0239 (34.6844% of tree length)
+
+WARNING: 31 near-zero internal branches (<0.0063) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'MyrhisCBS24733|Myriangium_hispanicum_CBS' is drawn at root
+Numbers in parentheses are  standard bootstrap support (%)
+
++-------------------MyrhisCBS24733|Myriangium_hispanicum_CBS
+|
+|                                                              +**UncfunHG764536|Uncultured_fungus_HG764536
+|                                        +---------------------| (88)
+|                                        |                     +**AscspNWHC46419|Ascomycota_sp._NWHC46419-007_2SD
+|                                     +**| (10)
+|                                     |  |         +**Dothsp119|Dothideales_sp._119
+|                                     |  +---------| (69)
+|                                     |            +**UncfunLX042399|Uncultured_fungus_LX042399-122-056-F01
+|                           +---------| (55)
+|                           |         +**StispMK136|Stigmina_sp._mk136
+|                 +---------| (54)
+|                 |         |  +**SarcruUAMH4286|Sarcinomyces_crustaceus_UAMH
+|                 |         +**| (54)
+|                 |            +**UncfunL049481|Uncultured_fungus_L049481H09
+|       +---------| (56)
+|       |         +**GroabiCbFap2016|Grovesiella_abieticola_CbFap2016ID_13
+|    +**| (22)
+|    |  |                        +**UncfunLR993703|Uncultured_fungus_LR993703.1
+|    |  |                     +**| (4)
+|    |  |                     |  +**DelstroCBS73571|Delphinella_strobiligena_CBS
+|    |  |                  +**| (1)
+|    |  |                  |  +**Delabi10669|Delphinella_abietis_10669
+|    |  |               +**| (1)
+|    |  |               |  +**Funend9042|Fungal_endophyte_9042
+|    |  |            +**| (1)
+|    |  |            |  |        +**DelbalDJOB080615|Delphinella_balsameae_DJO-B-080615-A4
+|    |  |            |  |     +**| (10)
+|    |  |            |  |     |  +**DelabiKX364384|Delphinella_abietis_KX364384
+|    |  |            |  |  +**| (1)
+|    |  |            |  |  |  +**AurpulEXF150|Aureobasidium_pullulans_EXF-150
+|    |  |            |  +**| (0)
+|    |  |            |     +**AurpulEXF915|Aureobasidium_pullulans_EXF-915
+|    |  |         +**| (1)
+|    |  |         |  +**AurpulCBS70176|Aureobasidium_pullulans_CBS
+|    |  +---------| (56)
+|    |            |  +**SydpolRBEB250515|Sydowia_polyspora_RBE-B-250515-A2
+|    |            +**| (4)
+|    |               +**AurpulCBS100280|Aureobasidium_pullulans_CBS
++****| (46)
+|    |     +**ZalalbDAOMC250847|Zalaria_alba_DAOM
+|    |  +**| (6)
+|    |  |  +**SchspJY119|Schwanniomyces_sp._JY119
+|    +**| (21)
+|       |  +**AurspRF2017a|Aureobasidium_sp._RF-2017a
+|       +**| (7)
+|          +**ZarlobsDAOMC250849|Zalaria_obscura_DAOM
+|
+|                            +**ElsoleCBS22759|Elsinoe_oleae_CBS
+|                         +**| (3)
+|                         |  +**ElslepCBS22550|Elsinoe_lepagei_CBS
+|                      +**| (0)
+|                      |  |  +**ElsfawCBS13925|Elsinoe_fawcettii_CBS
+|                      |  +**| (5)
+|                      |     +**MyrspEF109|Myriangium_sp._EF109
+|                   +**| (0)
+|                   |  |  +**ElscenCBS22250|Elsinoe_centrolobii_CBS
+|                   |  +**| (2)
+|                   |     +**MyrdurCBS26036|Myriangium_duriaei_CBS
+|                +**| (0)
+|                |  |  +**ElspitCBS22750|Elsinoe_pitangae_CBS
+|                |  +**| (0)
+|                |     |  +**ElsdioCBS22350|Elsinoe_diospyri_CBS
+|                |     +**| (2)
+|                |        +**MyrharCBS30034|Myriangium_haraeanum_CBS
+|             +**| (0)
+|             |  +**ElsmanCBS22650|Elsinoe_mangiferae_CBS
+|          +**| (0)
+|          |  +**ElsarruCBS22050|Elsinoe_arrudai_CBS
+|       +**| (0)
+|       |  +**ElsphaCBS16531|Elsinoe_phaseoli_CBS
+|    +**| (1)
+|    |  |     +**Elscal22150|Elsinoe_caleae_CBS
+|    |  |  +**| (4)
+|    |  |  |  +**ElszizCBS37862|Elsinoe_zizyphi_CBS
+|    |  +**| (0)
+|    |     +**ElshevCBS17956|Elsinoe_heveae_CBS
++****| (56)
+     +**ElsjasCBS22450|Elsinoe_jasmini_CBS
+
+Tree in newick format:
+
+(MyrhisCBS24733|Myriangium_hispanicum_CBS:0.0133843364,(((((((UncfunHG764536|Uncultured_fungus_HG764536:0.0000010000,AscspNWHC46419|Ascomycota_sp._NWHC46419-007_2SD:0.0000010000)88:0.0143651726,(Dothsp119|Dothideales_sp._119:0.0000010000,UncfunLX042399|Uncultured_fungus_LX042399-122-056-F01:0.0000010000)69:0.0067229714)10:0.0000010000,StispMK136|Stigmina_sp._mk136:0.0000010000)55:0.0067228126,(SarcruUAMH4286|Sarcinomyces_crustaceus_UAMH:0.0000010000,UncfunL049481|Uncultured_fungus_L049481H09:0.0000010000)54:0.0000010000)54:0.0067227456,GroabiCbFap2016|Grovesiella_abieticola_CbFap2016ID_13:0.0000010000)56:0.0067226747,((((((UncfunLR993703|Uncultured_fungus_LR993703.1:0.0000010000,DelstroCBS73571|Delphinella_strobiligena_CBS:0.0000010000)4:0.0000010000,Delabi10669|Delphinella_abietis_10669:0.0000010000)1:0.0000010000,Funend9042|Fungal_endophyte_9042:0.0000010000)1:0.0000010000,(((DelbalDJOB080615|Delphinella_balsameae_DJO-B-080615-A4:0.0000010000,DelabiKX364384|Delphinella_abietis_KX364384:0.0000010000)10:0.0000010000,AurpulEXF150|Aureobasidium_pullulans_EXF-150:0.0000010000)1:0.0000010000,AurpulEXF915|Aureobasidium_pullulans_EXF-915:0.0000010000)0:0.0000010000)1:0.0000010000,AurpulCBS70176|Aureobasidium_pullulans_CBS:0.0000010000)1:0.0000010000,(SydpolRBEB250515|Sydowia_polyspora_RBE-B-250515-A2:0.0000010000,AurpulCBS100280|Aureobasidium_pullulans_CBS:0.0000010000)4:0.0000010000)56:0.0067230969)22:0.0000010000,((ZalalbDAOMC250847|Zalaria_alba_DAOM:0.0000010000,SchspJY119|Schwanniomyces_sp._JY119:0.0000010000)6:0.0000010000,(AurspRF2017a|Aureobasidium_sp._RF-2017a:0.0000010000,ZarlobsDAOMC250849|Zalaria_obscura_DAOM:0.0000010000)7:0.0000010000)21:0.0000010000)46:0.0037150271,(((((((((ElsoleCBS22759|Elsinoe_oleae_CBS:0.0000010000,ElslepCBS22550|Elsinoe_lepagei_CBS:0.0000010000)3:0.0000010000,(ElsfawCBS13925|Elsinoe_fawcettii_CBS:0.0000010000,MyrspEF109|Myriangium_sp._EF109:0.0000010000)5:0.0000010000)0:0.0000010000,(ElscenCBS22250|Elsinoe_centrolobii_CBS:0.0000010000,MyrdurCBS26036|Myriangium_duriaei_CBS:0.0000010000)2:0.0000010000)0:0.0000010000,(ElspitCBS22750|Elsinoe_pitangae_CBS:0.0000010000,(ElsdioCBS22350|Elsinoe_diospyri_CBS:0.0000010000,MyrharCBS30034|Myriangium_haraeanum_CBS:0.0000010000)2:0.0000010000)0:0.0000010000)0:0.0000010000,ElsmanCBS22650|Elsinoe_mangiferae_CBS:0.0000010000)0:0.0000010000,ElsarruCBS22050|Elsinoe_arrudai_CBS:0.0000010000)0:0.0000010000,ElsphaCBS16531|Elsinoe_phaseoli_CBS:0.0000010000)0:0.0000010000,((Elscal22150|Elsinoe_caleae_CBS:0.0000010000,ElszizCBS37862|Elsinoe_zizyphi_CBS:0.0000010000)4:0.0000010000,ElshevCBS17956|Elsinoe_heveae_CBS:0.0000010000)0:0.0000010000)1:0.0000010000,ElsjasCBS22450|Elsinoe_jasmini_CBS:0.0000010000)56:0.0037177622);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -281.918618
+Robinson-Foulds distance between ML tree and consensus tree: 50
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++-------------------MyrhisCBS24733|Myriangium_hispanicum_CBS
+|
+|                                                           +--UncfunHG764536|Uncultured_fungus_HG764536
+|                                     +---------------------| (88)
+|                                     |                     +--AscspNWHC46419|Ascomycota_sp._NWHC46419-007_2SD
+|                           +---------| (55)
+|                           |         |            +--Dothsp119|Dothideales_sp._119
+|                           |         |  +---------| (69)
+|                           |         |  |         +--UncfunLX042399|Uncultured_fungus_LX042399-122-056-F01
+|                           |         +--| (39)
+|                           |            +--StispMK136|Stigmina_sp._mk136
+|                 +---------| (54)
+|                 |         |  +--SarcruUAMH4286|Sarcinomyces_crustaceus_UAMH
+|                 |         +--| (54)
+|                 |            +--UncfunL049481|Uncultured_fungus_L049481H09
+|       +---------| (56)
+|       |         +--GroabiCbFap2016|Grovesiella_abieticola_CbFap2016ID_13
+|    +--| (22)
+|    |  |                           +--UncfunLR993703|Uncultured_fungus_LR993703.1
+|    |  |                        +--| (6)
+|    |  |                        |  +--Delabi10669|Delphinella_abietis_10669
+|    |  |                     +--| (4)
+|    |  |                     |  |  +--DelbalDJOB080615|Delphinella_balsameae_DJO-B-080615-A4
+|    |  |                     |  +--| (10)
+|    |  |                     |     +--DelabiKX364384|Delphinella_abietis_KX364384
+|    |  |                  +--| (5)
+|    |  |                  |  +--AurpulCBS70176|Aureobasidium_pullulans_CBS
+|    |  |               +--| (4)
+|    |  |               |  |  +--Funend9042|Fungal_endophyte_9042
+|    |  |               |  +--| (5)
+|    |  |               |     +--AurpulEXF915|Aureobasidium_pullulans_EXF-915
+|    |  |            +--| (4)
+|    |  |            |  +--AurpulEXF150|Aureobasidium_pullulans_EXF-150
+|    |  |         +--| (6)
+|    |  |         |  |  +--DelstroCBS73571|Delphinella_strobiligena_CBS
+|    |  |         |  +--| (5)
+|    |  |         |     +--AurpulCBS100280|Aureobasidium_pullulans_CBS
+|    |  +---------| (56)
+|    |            +--SydpolRBEB250515|Sydowia_polyspora_RBE-B-250515-A2
++----| (46)
+|    |     +--ZalalbDAOMC250847|Zalaria_alba_DAOM
+|    |  +--| (10)
+|    |  |  +--AurspRF2017a|Aureobasidium_sp._RF-2017a
+|    +--| (21)
+|       |  +--ZarlobsDAOMC250849|Zalaria_obscura_DAOM
+|       +--| (9)
+|          +--SchspJY119|Schwanniomyces_sp._JY119
+|
+|                                        +--ElsoleCBS22759|Elsinoe_oleae_CBS
+|                                     +--| (4)
+|                                     |  +--ElshevCBS17956|Elsinoe_heveae_CBS
+|                                  +--| (4)
+|                                  |  |  +--ElspitCBS22750|Elsinoe_pitangae_CBS
+|                                  |  +--| (9)
+|                                  |     +--MyrspEF109|Myriangium_sp._EF109
+|                               +--| (5)
+|                               |  +--ElsfawCBS13925|Elsinoe_fawcettii_CBS
+|                            +--| (5)
+|                            |  +--ElsjasCBS22450|Elsinoe_jasmini_CBS
+|                         +--| (5)
+|                         |  +--MyrdurCBS26036|Myriangium_duriaei_CBS
+|                      +--| (4)
+|                      |  +--ElsarruCBS22050|Elsinoe_arrudai_CBS
+|                   +--| (4)
+|                   |  +--ElslepCBS22550|Elsinoe_lepagei_CBS
+|                +--| (1)
+|                |  +--ElsphaCBS16531|Elsinoe_phaseoli_CBS
+|             +--| (4)
+|             |  |  +--Elscal22150|Elsinoe_caleae_CBS
+|             |  +--| (5)
+|             |     +--ElscenCBS22250|Elsinoe_centrolobii_CBS
+|          +--| (5)
+|          |  +--ElsdioCBS22350|Elsinoe_diospyri_CBS
+|       +--| (4)
+|       |  +--MyrharCBS30034|Myriangium_haraeanum_CBS
+|    +--| (5)
+|    |  +--ElsmanCBS22650|Elsinoe_mangiferae_CBS
++----| (56)
+     +--ElszizCBS37862|Elsinoe_zizyphi_CBS
+
+
+Consensus tree in newick format: 
+
+(MyrhisCBS24733|Myriangium_hispanicum_CBS:0.0134011650,((((((UncfunHG764536|Uncultured_fungus_HG764536:0.0000025515,AscspNWHC46419|Ascomycota_sp._NWHC46419-007_2SD:0.0000025515)88:0.0143748702,((Dothsp119|Dothideales_sp._119:0.0000025515,UncfunLX042399|Uncultured_fungus_LX042399-122-056-F01:0.0000025515)69:0.0067269874,StispMK136|Stigmina_sp._mk136:0.0000025515)39:0.0000025515)55:0.0067274502,(SarcruUAMH4286|Sarcinomyces_crustaceus_UAMH:0.0000025515,UncfunL049481|Uncultured_fungus_L049481H09:0.0000025515)54:0.0000025515)54:0.0067279001,GroabiCbFap2016|Grovesiella_abieticola_CbFap2016ID_13:0.0000025515)56:0.0067283696,(((((((UncfunLR993703|Uncultured_fungus_LR993703.1:0.0000025515,Delabi10669|Delphinella_abietis_10669:0.0000025515)6:0.0000025515,(DelbalDJOB080615|Delphinella_balsameae_DJO-B-080615-A4:0.0000025515,DelabiKX364384|Delphinella_abietis_KX364384:0.0000025515)10:0.0000025515)4:0.0000025515,AurpulCBS70176|Aureobasidium_pullulans_CBS:0.0000025515)5:0.0000025515,(Funend9042|Fungal_endophyte_9042:0.0000025515,AurpulEXF915|Aureobasidium_pullulans_EXF-915:0.0000025515)5:0.0000025515)4:0.0000025515,AurpulEXF150|Aureobasidium_pullulans_EXF-150:0.0000025515)4:0.0000025515,(DelstroCBS73571|Delphinella_strobiligena_CBS:0.0000025515,AurpulCBS100280|Aureobasidium_pullulans_CBS:0.0000025515)5:0.0000025515)6:0.0000025515,SydpolRBEB250515|Sydowia_polyspora_RBE-B-250515-A2:0.0000025515)56:0.0067269193)22:0.0000025515,((ZalalbDAOMC250847|Zalaria_alba_DAOM:0.0000025515,AurspRF2017a|Aureobasidium_sp._RF-2017a:0.0000025515)10:0.0000025515,(ZarlobsDAOMC250849|Zalaria_obscura_DAOM:0.0000025515,SchspJY119|Schwanniomyces_sp._JY119:0.0000025515)9:0.0000025515)21:0.0000025515)46:0.0038313070,(((((((((((((ElsoleCBS22759|Elsinoe_oleae_CBS:0.0000025515,ElshevCBS17956|Elsinoe_heveae_CBS:0.0000025515)4:0.0000025515,(ElspitCBS22750|Elsinoe_pitangae_CBS:0.0000025515,MyrspEF109|Myriangium_sp._EF109:0.0000025515)9:0.0000025515)4:0.0000025515,ElsfawCBS13925|Elsinoe_fawcettii_CBS:0.0000025515)5:0.0000025515,ElsjasCBS22450|Elsinoe_jasmini_CBS:0.0000025515)5:0.0000025515,MyrdurCBS26036|Myriangium_duriaei_CBS:0.0000025515)5:0.0000025515,ElsarruCBS22050|Elsinoe_arrudai_CBS:0.0000025515)4:0.0000025515,ElslepCBS22550|Elsinoe_lepagei_CBS:0.0000025515)4:0.0000025515,ElsphaCBS16531|Elsinoe_phaseoli_CBS:0.0000025515)1:0.0000025515,(Elscal22150|Elsinoe_caleae_CBS:0.0000025515,ElscenCBS22250|Elsinoe_centrolobii_CBS:0.0000025515)5:0.0000025515)4:0.0000025515,ElsdioCBS22350|Elsinoe_diospyri_CBS:0.0000025515)5:0.0000025515,MyrharCBS30034|Myriangium_haraeanum_CBS:0.0000025515)4:0.0000025515,ElsmanCBS22650|Elsinoe_mangiferae_CBS:0.0000025515)5:0.0000025515,ElszizCBS37862|Elsinoe_zizyphi_CBS:0.0000025515)56:0.0035492067);
+
+TIME STAMP
+----------
+
+Date and time: Thu Feb  3 22:26:29 2022
+Total CPU time used: 5.656768 seconds (0h:0m:5s)
+Total wall-clock time used: 6.090492964 seconds (0h:0m:6s)
+

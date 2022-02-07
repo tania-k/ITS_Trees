@@ -1,0 +1,196 @@
+IQ-TREE multicore version 2.1.1 COVID-edition for Linux 64-bit built Aug 22 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    i07 (AVX2, FMA3, 503 GB RAM)
+Command: iqtree2 -s rDNA_multi.mfa -p rDNA_multi.partitions.nex -nt AUTO -pre rDNA_multi.partitioned -bb 1000 -alrt 1000
+Seed:    695898 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Mar 22 12:57:47 2021
+Kernel:  AVX+FMA - auto-detect threads (16 CPU cores detected)
+
+Reading partition model file rDNA_multi.partitions.nex ...
+Reading alignment file rDNA_multi.mfa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 26 sequences with 985 columns, 425 distinct patterns
+183 parsimony-informative, 112 singleton sites, 690 constant sites
+                 Gap/Ambiguity  Composition  p-value
+   1  LaloCPC35996      39.39%    passed     36.64%
+   2  LgutM1            39.19%    passed     33.98%
+   3  LcatCGMCC31408    42.94%    passed     70.69%
+   4  KvatCBS139722     37.56%    passed     79.02%
+   5  AfulCBS136243     43.15%    passed     76.83%
+   6  AcauCBS45767      42.13%    passed     57.43%
+   7  AtarCBS127021     43.15%    passed     70.32%
+   8  AtroCBS134926     37.06%    passed     90.37%
+   9  KepiCBS120353     45.08%    passed     55.28%
+  10  KmedCBS129721     38.98%    passed     83.04%
+  11  KtsuFMR10621      45.79%    passed     98.06%
+  12  KmarCBS139726     44.87%    passed     99.49%
+  13  KcryDAOM21655     33.40%    passed     83.37%
+  14  KendUAMH10396     44.26%    passed     56.60%
+  15  KcalCGMCC317222   44.26%    passed     98.29%
+  16  KkarCBS139720     33.40%    passed     93.07%
+  17  KpetCBS726.95     38.27%    passed     99.49%
+  18  KperCBS88595      33.60%    passed     97.62%
+  19  EderCBS201735     31.37%    passed     75.74%
+  20  KF777182          33.91%    passed     81.59%
+  21  MN835758          75.43%    passed     80.26%
+  22  JES112            46.19%    passed     92.18%
+  23  UDB0768601        25.69%    passed     92.74%
+  24  MG707512          33.60%    passed     87.43%
+  25  UDB0768474        37.66%    passed     93.19%
+  26  UDB0768448        51.07%    passed     87.86%
+WARNING: 2 sequences contain more than 50% gaps/ambiguity
+****  TOTAL             40.82%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Loading 5 partitions...
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1	DNA	26	294	102	143	TIM2e+G4	ITS1
+2	DNA	16	100	0	97	JC	LSU
+WARNING: No parsimony-informative sites in partition LSU
+3	DNA	25	267	75	146	TPM2+F+G4	ITS2
+4	DNA	12	165	0	155	JC	SSU
+WARNING: No parsimony-informative sites in partition SSU
+5	DNA	25	159	6	149	JC	5_8S
+Degree of missing data: 0.146
+Info: multi-threading strategy over partitions
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.002 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 695898)...
+
+NOTE: 3 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+794 trees examined
+Threads: 1 / Time: 16.013 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -6065
+Threads: 2 / Time: 13.939 sec / Speedup: 1.149 / Efficiency: 57% / LogL: -6065
+Threads: 3 / Time: 12.303 sec / Speedup: 1.302 / Efficiency: 43% / LogL: -6065
+BEST NUMBER OF THREADS: 2
+
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -4887.988
+Current log-likelihood at step 1: -4505.906
+Current log-likelihood at step 2: -4476.910
+Current log-likelihood at step 3: -4476.627
+Current log-likelihood at step 4: -4476.566
+Partition-specific rates:  1.754 0.059 1.600 0.164 0.059
+Parameters optimization took 3 rounds (0.062 sec)
+
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.000234 sec (of wall-clock time) 0.000677 sec(of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing RapidNJ tree took 0.000349 sec (of wall-clock time) 0.000967 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -5687.684
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.232 second
+Computing log-likelihood of 98 initial trees ... 0.356 seconds
+Current best score: -4473.109
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -4456.466
+Current log-likelihood at step 1: -4456.069
+Current log-likelihood at step 2: -4455.961
+Current log-likelihood at step 3: -4455.864
+Parameters optimization took 2 rounds (0.026 sec)
+
+BETTER TREE FOUND at iteration 1: -4455.864
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -4455.389
+Current log-likelihood at step 1: -4454.966
+Current log-likelihood at step 2: -4454.871
+Parameters optimization took 1 rounds (0.018 sec)
+
+BETTER TREE FOUND at iteration 2: -4454.871
+Iteration 10 / LogL: -4454.896 / Time: 0h:0m:43s
+Iteration 20 / LogL: -4459.956 / Time: 0h:0m:44s
+Finish initializing candidate tree set (3)
+Current best tree score: -4454.871 / CPU time: 1.790
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -4453.019
+Current log-likelihood at step 1: -4452.837
+Current log-likelihood at step 2: -4452.789
+Parameters optimization took 1 rounds (0.018 sec)
+
+BETTER TREE FOUND at iteration 24: -4452.789
+UPDATE BEST LOG-LIKELIHOOD: -4452.787
+Iteration 30 / LogL: -4452.787 / Time: 0h:0m:44s (0h:2m:25s left)
+UPDATE BEST LOG-LIKELIHOOD: -4452.782
+Iteration 40 / LogL: -4452.782 / Time: 0h:0m:45s (0h:1m:38s left)
+Iteration 50 / LogL: -4453.043 / Time: 0h:0m:46s (0h:1m:9s left)
+Log-likelihood cutoff on original alignment: -4488.069
+Iteration 60 / LogL: -4452.809 / Time: 0h:0m:47s (0h:0m:50s left)
+Iteration 70 / LogL: -4452.811 / Time: 0h:0m:47s (0h:0m:37s left)
+Iteration 80 / LogL: -4452.801 / Time: 0h:0m:48s (0h:0m:26s left)
+Iteration 90 / LogL: -4452.887 / Time: 0h:0m:49s (0h:0m:18s left)
+Iteration 100 / LogL: -4452.792 / Time: 0h:0m:49s (0h:0m:12s left)
+Log-likelihood cutoff on original alignment: -4488.069
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.994
+Iteration 110 / LogL: -4452.785 / Time: 0h:0m:50s (0h:0m:41s left)
+Iteration 120 / LogL: -4452.783 / Time: 0h:0m:51s (0h:0m:34s left)
+UPDATE BEST LOG-LIKELIHOOD: -4452.782
+TREE SEARCH COMPLETED AFTER 125 ITERATIONS / Time: 0h:0m:51s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+Initial log-likelihood: -4452.782
+Current log-likelihood at step 1: -4452.722
+Current log-likelihood at step 2: -4452.672
+Current log-likelihood at step 3: -4452.628
+Current log-likelihood at step 4: -4452.591
+Current log-likelihood at step 5: -4452.558
+Current log-likelihood at step 6: -4452.529
+Current log-likelihood at step 7: -4452.504
+Current log-likelihood at step 8: -4452.483
+Current log-likelihood at step 9: -4452.469
+Current log-likelihood at step 10: -4452.455
+Current log-likelihood at step 11: -4452.443
+Current log-likelihood at step 12: -4452.431
+Current log-likelihood at step 13: -4452.421
+Current log-likelihood at step 14: -4452.411
+Partition-specific rates:  1.771 0.044 1.597 0.162 0.043
+Parameters optimization took 13 rounds (0.109 sec)
+
+Partition information was printed to rDNA_multi.partitioned.best_model.nex
+BEST SCORE FOUND : -4452.411
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.159 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file rDNA_multi.partitioned.splits.nex
+Total tree length: 1.743
+
+Total number of iterations: 125
+CPU time used for tree search: 18.013 sec (0h:0m:18s)
+Wall-clock time used for tree search: 9.091 sec (0h:0m:9s)
+Total CPU time used: 100.863 sec (0h:1m:40s)
+Total wall-clock time used: 51.795 sec (0h:0m:51s)
+
+Computing bootstrap consensus tree...
+Reading input file rDNA_multi.partitioned.splits.nex...
+26 taxa and 193 splits.
+Consensus tree written to rDNA_multi.partitioned.contree
+Reading input trees file rDNA_multi.partitioned.contree
+Log-likelihood of consensus tree: -4452.409
+
+Analysis results written to: 
+  IQ-TREE report:                rDNA_multi.partitioned.iqtree
+  Maximum-likelihood tree:       rDNA_multi.partitioned.treefile
+  Likelihood distances:          rDNA_multi.partitioned.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          rDNA_multi.partitioned.splits.nex
+  Consensus tree:                rDNA_multi.partitioned.contree
+  Screen log file:               rDNA_multi.partitioned.log
+
+Date and Time: Mon Mar 22 12:58:39 2021
